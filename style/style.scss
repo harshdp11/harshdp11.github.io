@@ -1,0 +1,67 @@
+@import 'grid';
+@import 'navigation';
+@import 'home';
+@import 'projects';
+@import 'about';
+
+$text-black: #222222;
+$grey-dark : #666666;
+$grey-light: #999999;
+
+$background-grey: #F5F5F7;
+$primary-pink: #FF103D;
+
+
+::selection {
+  color: white;
+  background: $primary-pink;
+}
+
+
+html{
+    width:100%;
+    scroll-behavior: smooth;
+  }
+  
+body{
+  width:100%;
+  margin:0 auto;
+  max-width:1920px;
+  color:$text-black;
+}
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+.fadeInDiv{
+  animation: fadeIn 0.9s ease-in-out;
+}
+
+a{
+  cursor: pointer;
+  text-decoration: none;
+}
+
+
+a:visited { 
+  text-decoration: none; 
+  color: $text-black;
+}
+
+.animate-on-scroll{
+  transition: 0.8s;
+}
+
+@keyframes fadeInUp {
+  from{
+    transform:translateY(100px);
+    opacity: 0;
+  }
+
+  to{
+    transform:translateY(0px);
+    opacity: 1;
+  }
+}
+

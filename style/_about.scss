@@ -1,0 +1,96 @@
+section.bio{
+    padding: 120px 0px;
+
+    .medium-width{
+        margin-left: auto;
+        margin-right: auto;
+
+        @keyframes fadeIn {
+            0% {opacity: 0;}
+            100% {opacity: 1;}
+        }
+
+        .bio-container{
+            width: 90%;
+            margin-left: auto;
+            margin-right: auto;
+            animation: fadeIn 0.8s ease-in-out;
+            
+            .profile-image{
+                width: 94%;
+                margin-right: 6%;
+                img{
+                    width: 100%;
+                }
+            }
+        
+            .bio-text{
+        
+                h5{
+                    font-weight: 700;
+                    line-height: 38px;
+                    margin-bottom: 0px;
+                    letter-spacing: -1px;
+                    font-size: calc(22px + (26 - 22) * ((100vw - 320px) / (1680 - 320))) !important;
+                }
+
+                p.p1{
+                    font-weight: 100;
+                }
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    section.bio{
+        padding: 96px 0px;
+    
+        .medium-width{
+            .bio-container{
+                width: 100%;
+                .profile-image{
+                    width: 100%;
+                    margin-right: 0%;
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                .bio-text{
+                    h5{
+                        margin-top: 0px;
+                        line-height: 34px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    section.bio{
+        padding: 64px 0px;
+    
+        .medium-width{
+            .bio-container{
+                width: 100%;
+                .profile-image{
+                    width: 100%;
+                    margin-right: 0%;
+                    img{
+                        width: 100%;
+                    }
+                }
+
+                .bio-text{
+                    h5{
+                        margin-top: 32px;
+                        line-height: 32px;
+                    }
+                }
+            }
+        }
+    }
+}
