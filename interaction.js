@@ -39,7 +39,6 @@ $(document).ready(function(){
     // hamburger menu hide and show
     $('.menu-icon').click(function(){
         $('.menu-expanded').css("opacity", "1");
-        console.log('kvs');
         // make the menu clickable
         $('.menu-expanded').css("pointer-events", "auto");
         $('body').css("overflow", "hidden");
@@ -54,8 +53,6 @@ $(document).ready(function(){
      });
 });
 
-// parallax effect on project cover images
-var rellax = new Rellax('.rellax');
 
 // Page scroll indicator in project pages
 window.onscroll = function() {myFunction()};
@@ -67,7 +64,7 @@ function myFunction() {
   document.getElementById("progressBar").style.width = scrolled + "%";
 }
 
-
+//Click to scroll to the top in project pages
 $(window).scroll(function() {
   if ($(this).scrollTop() > 100 ) {
       $('.scrolltop:hidden').stop(true, true).fadeIn();
@@ -75,4 +72,8 @@ $(window).scroll(function() {
       $('.scrolltop').stop(true, true).fadeOut();
   }
 });
-$(function(){$(".scrolltop").click(function(){$("html,body").animate({scrollTop:$(".navigation").offset().top},"1500");return false})})
+$(function(){$(".scrolltop").click(function(){$("html,body").animate({scrollTop:$(".navigation").offset().top},"1500");return false})});
+
+// parallax 
+var rellax = new Rellax('.rellax');
+
