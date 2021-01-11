@@ -33,8 +33,8 @@
 .container .twelve-column .span-seven-col {
   grid-column: span 7;
 }
-.container .twelve-column .span-ten-col {
-  grid-column: span 10;
+.container .twelve-column .span-nine-col {
+  grid-column: span 9;
 }
 .container .twelve-column .span-twelve-col {
   grid-column: span 12;
@@ -71,8 +71,8 @@
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
   }
-  .container .twelve-column .span-ten-col {
-    grid-column: span 8;
+  .container .twelve-column .span-nine-col {
+    grid-column: span 9;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -105,7 +105,7 @@
   .container .twelve-column .span-seven-col {
     grid-column: span 1;
   }
-  .container .twelve-column .span-ten-col {
+  .container .twelve-column .span-nine-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-twelve-col {
@@ -283,8 +283,8 @@ section.footer .container p:nth-child(2) {
 .container .twelve-column .span-seven-col {
   grid-column: span 7;
 }
-.container .twelve-column .span-ten-col {
-  grid-column: span 10;
+.container .twelve-column .span-nine-col {
+  grid-column: span 9;
 }
 .container .twelve-column .span-twelve-col {
   grid-column: span 12;
@@ -321,8 +321,8 @@ section.footer .container p:nth-child(2) {
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
   }
-  .container .twelve-column .span-ten-col {
-    grid-column: span 8;
+  .container .twelve-column .span-nine-col {
+    grid-column: span 9;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -355,7 +355,7 @@ section.footer .container p:nth-child(2) {
   .container .twelve-column .span-seven-col {
     grid-column: span 1;
   }
-  .container .twelve-column .span-ten-col {
+  .container .twelve-column .span-nine-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-twelve-col {
@@ -752,7 +752,7 @@ section.projects .projects-heading h3 {
   margin-left: auto;
 }
 section.projects .project-listing-row {
-  padding: 80px 0px;
+  padding: 56px 0px;
 }
 section.projects .project-listing-row .projects-row .project {
   position: relative;
@@ -986,8 +986,8 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
 .container .twelve-column .span-seven-col {
   grid-column: span 7;
 }
-.container .twelve-column .span-ten-col {
-  grid-column: span 10;
+.container .twelve-column .span-nine-col {
+  grid-column: span 9;
 }
 .container .twelve-column .span-twelve-col {
   grid-column: span 12;
@@ -1024,8 +1024,8 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
   }
-  .container .twelve-column .span-ten-col {
-    grid-column: span 8;
+  .container .twelve-column .span-nine-col {
+    grid-column: span 9;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -1058,7 +1058,7 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   .container .twelve-column .span-seven-col {
     grid-column: span 1;
   }
-  .container .twelve-column .span-ten-col {
+  .container .twelve-column .span-nine-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-twelve-col {
