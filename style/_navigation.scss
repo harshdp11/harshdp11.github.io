@@ -32,6 +32,14 @@ navbar{
                 position: relative;
             }
 
+            .external-link:after{
+                position:absolute;
+                padding-left:8px;
+                content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1610350720/Portfolio%203.0/Home%20page/external-link_pmbqeb.svg);
+                opacity: 0;
+                transition:0.5s;
+            }
+
             a:before{
                 content: "";
                 position: absolute;
@@ -47,6 +55,10 @@ navbar{
             a:hover:before {
                 visibility: visible;
                 width: 100%;
+            }
+
+            .external-link:hover:after{
+                opacity: 1;
             }
 
             a.active{

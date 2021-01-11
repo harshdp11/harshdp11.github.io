@@ -7,7 +7,15 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     if (!entry.isIntersecting) return;
 
     const img = entry.target;
-    img.src = img.src.replace("c_scale,q_50,w_5", "c_scale,q_100,w_1680");
+    if($(window).width() < 600)
+    {
+      img.src = img.src.replace("c_scale,q_50,w_5", "c_scale,q_100,w_900");
+    }
+
+    else{
+      img.src = img.src.replace("c_scale,q_50,w_5", "c_scale,q_100,w_1680");
+    }
+    
     imgObserver.unobserve(entry.target);
   });
 }, imgOptions);

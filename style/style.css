@@ -24,14 +24,17 @@
 }
 .container .twelve-column {
   display: grid;
-  grid-column-gap: 24px;
+  grid-column-gap: 48px;
   grid-template-columns: repeat(12, 1fr);
 }
 .container .twelve-column .span-five-col {
-  grid-column: span 4;
+  grid-column: span 5;
 }
 .container .twelve-column .span-seven-col {
-  grid-column: span 8;
+  grid-column: span 7;
+}
+.container .twelve-column .span-ten-col {
+  grid-column: span 10;
 }
 .container .twelve-column .span-twelve-col {
   grid-column: span 12;
@@ -59,7 +62,7 @@
   }
   .container .twelve-column {
     display: grid;
-    grid-column-gap: 24px;
+    grid-column-gap: 32px;
     grid-template-columns: repeat(8, 1fr);
   }
   .container .twelve-column .span-five-col {
@@ -67,6 +70,9 @@
   }
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
+  }
+  .container .twelve-column .span-ten-col {
+    grid-column: span 8;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -99,6 +105,9 @@
   .container .twelve-column .span-seven-col {
     grid-column: span 1;
   }
+  .container .twelve-column .span-ten-col {
+    grid-column: span 1;
+  }
   .container .twelve-column .span-twelve-col {
     grid-column: span 1;
   }
@@ -128,6 +137,13 @@ navbar .navbar-desktop .navigation-links a {
   padding-bottom: 10px;
   position: relative;
 }
+navbar .navbar-desktop .navigation-links .external-link:after {
+  position: absolute;
+  padding-left: 8px;
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1610350720/Portfolio%203.0/Home%20page/external-link_pmbqeb.svg);
+  opacity: 0;
+  transition: 0.5s;
+}
 navbar .navbar-desktop .navigation-links a:before {
   content: "";
   position: absolute;
@@ -142,6 +158,9 @@ navbar .navbar-desktop .navigation-links a:before {
 navbar .navbar-desktop .navigation-links a:hover:before {
   visibility: visible;
   width: 100%;
+}
+navbar .navbar-desktop .navigation-links .external-link:hover:after {
+  opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
   border-bottom: 2x solid #FF103D;
@@ -255,14 +274,17 @@ section.footer .container p:nth-child(2) {
 }
 .container .twelve-column {
   display: grid;
-  grid-column-gap: 24px;
+  grid-column-gap: 48px;
   grid-template-columns: repeat(12, 1fr);
 }
 .container .twelve-column .span-five-col {
-  grid-column: span 4;
+  grid-column: span 5;
 }
 .container .twelve-column .span-seven-col {
-  grid-column: span 8;
+  grid-column: span 7;
+}
+.container .twelve-column .span-ten-col {
+  grid-column: span 10;
 }
 .container .twelve-column .span-twelve-col {
   grid-column: span 12;
@@ -290,7 +312,7 @@ section.footer .container p:nth-child(2) {
   }
   .container .twelve-column {
     display: grid;
-    grid-column-gap: 24px;
+    grid-column-gap: 32px;
     grid-template-columns: repeat(8, 1fr);
   }
   .container .twelve-column .span-five-col {
@@ -298,6 +320,9 @@ section.footer .container p:nth-child(2) {
   }
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
+  }
+  .container .twelve-column .span-ten-col {
+    grid-column: span 8;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -328,6 +353,9 @@ section.footer .container p:nth-child(2) {
     grid-column: span 1;
   }
   .container .twelve-column .span-seven-col {
+    grid-column: span 1;
+  }
+  .container .twelve-column .span-ten-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-twelve-col {
@@ -435,6 +463,13 @@ navbar .navbar-desktop .navigation-links a {
   padding-bottom: 10px;
   position: relative;
 }
+navbar .navbar-desktop .navigation-links .external-link:after {
+  position: absolute;
+  padding-left: 8px;
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1610350720/Portfolio%203.0/Home%20page/external-link_pmbqeb.svg);
+  opacity: 0;
+  transition: 0.5s;
+}
 navbar .navbar-desktop .navigation-links a:before {
   content: "";
   position: absolute;
@@ -449,6 +484,9 @@ navbar .navbar-desktop .navigation-links a:before {
 navbar .navbar-desktop .navigation-links a:hover:before {
   visibility: visible;
   width: 100%;
+}
+navbar .navbar-desktop .navigation-links .external-link:hover:after {
+  opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
   border-bottom: 2x solid #FF103D;
@@ -711,6 +749,7 @@ section.projects .projects-heading h3 {
   font-weight: 100;
   margin-top: 0px;
   margin-bottom: 0px;
+  margin-left: auto;
 }
 section.projects .project-listing-row {
   padding: 80px 0px;
@@ -732,7 +771,7 @@ section.projects .project-listing-row .projects-row .project .project-title {
 }
 section.projects .project-listing-row .projects-row .project .project-title h6 {
   font-weight: 200;
-  margin-top: 16px;
+  margin-top: 20px;
   margin-bottom: 0px;
 }
 section.projects .project-listing-row .projects-row .project .project-title h6:before {
@@ -786,7 +825,7 @@ section.projects .row-3 {
     padding: 0px 0px;
   }
   section.projects .project-listing-row .projects-row .project {
-    padding: 40px 0px;
+    padding: 24px 0px;
   }
   section.projects .project-listing-row .projects-row .project-5 {
     padding-bottom: 0px;
@@ -938,14 +977,17 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
 }
 .container .twelve-column {
   display: grid;
-  grid-column-gap: 24px;
+  grid-column-gap: 48px;
   grid-template-columns: repeat(12, 1fr);
 }
 .container .twelve-column .span-five-col {
-  grid-column: span 4;
+  grid-column: span 5;
 }
 .container .twelve-column .span-seven-col {
-  grid-column: span 8;
+  grid-column: span 7;
+}
+.container .twelve-column .span-ten-col {
+  grid-column: span 10;
 }
 .container .twelve-column .span-twelve-col {
   grid-column: span 12;
@@ -973,7 +1015,7 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   }
   .container .twelve-column {
     display: grid;
-    grid-column-gap: 24px;
+    grid-column-gap: 32px;
     grid-template-columns: repeat(8, 1fr);
   }
   .container .twelve-column .span-five-col {
@@ -981,6 +1023,9 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   }
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
+  }
+  .container .twelve-column .span-ten-col {
+    grid-column: span 8;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -1011,6 +1056,9 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
     grid-column: span 1;
   }
   .container .twelve-column .span-seven-col {
+    grid-column: span 1;
+  }
+  .container .twelve-column .span-ten-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-twelve-col {
@@ -1118,6 +1166,13 @@ navbar .navbar-desktop .navigation-links a {
   padding-bottom: 10px;
   position: relative;
 }
+navbar .navbar-desktop .navigation-links .external-link:after {
+  position: absolute;
+  padding-left: 8px;
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1610350720/Portfolio%203.0/Home%20page/external-link_pmbqeb.svg);
+  opacity: 0;
+  transition: 0.5s;
+}
 navbar .navbar-desktop .navigation-links a:before {
   content: "";
   position: absolute;
@@ -1132,6 +1187,9 @@ navbar .navbar-desktop .navigation-links a:before {
 navbar .navbar-desktop .navigation-links a:hover:before {
   visibility: visible;
   width: 100%;
+}
+navbar .navbar-desktop .navigation-links .external-link:hover:after {
+  opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
   border-bottom: 2x solid #FF103D;
