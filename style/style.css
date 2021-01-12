@@ -11,6 +11,10 @@
   width: 70%;
   margin-left: 15%;
 }
+.container .narrow-width-home {
+  width: 80%;
+  margin-left: 10%;
+}
 .container .two-column {
   display: grid;
   grid-column-gap: 32px;
@@ -33,6 +37,9 @@
 .container .twelve-column .span-seven-col {
   grid-column: span 7;
 }
+.container .twelve-column .span-six-col {
+  grid-column: span 6;
+}
 .container .twelve-column .span-nine-col {
   grid-column: span 9;
 }
@@ -45,7 +52,7 @@
     width: 100%;
     margin-right: 0%;
   }
-  .container .narrow-width {
+  .container .narrow-width, .container .narrow-width-home {
     width: 100%;
     margin-left: 0%;
   }
@@ -71,8 +78,11 @@
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
   }
+  .container .twelve-column .span-six-col {
+    grid-column: span 4;
+  }
   .container .twelve-column .span-nine-col {
-    grid-column: span 9;
+    grid-column: span 8;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -103,6 +113,9 @@
     grid-column: span 1;
   }
   .container .twelve-column .span-seven-col {
+    grid-column: span 1;
+  }
+  .container .twelve-column .span-six-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-nine-col {
@@ -261,6 +274,10 @@ section.footer .container p:nth-child(2) {
   width: 70%;
   margin-left: 15%;
 }
+.container .narrow-width-home {
+  width: 80%;
+  margin-left: 10%;
+}
 .container .two-column {
   display: grid;
   grid-column-gap: 32px;
@@ -283,6 +300,9 @@ section.footer .container p:nth-child(2) {
 .container .twelve-column .span-seven-col {
   grid-column: span 7;
 }
+.container .twelve-column .span-six-col {
+  grid-column: span 6;
+}
 .container .twelve-column .span-nine-col {
   grid-column: span 9;
 }
@@ -295,7 +315,7 @@ section.footer .container p:nth-child(2) {
     width: 100%;
     margin-right: 0%;
   }
-  .container .narrow-width {
+  .container .narrow-width, .container .narrow-width-home {
     width: 100%;
     margin-left: 0%;
   }
@@ -321,8 +341,11 @@ section.footer .container p:nth-child(2) {
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
   }
+  .container .twelve-column .span-six-col {
+    grid-column: span 4;
+  }
   .container .twelve-column .span-nine-col {
-    grid-column: span 9;
+    grid-column: span 8;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -353,6 +376,9 @@ section.footer .container p:nth-child(2) {
     grid-column: span 1;
   }
   .container .twelve-column .span-seven-col {
+    grid-column: span 1;
+  }
+  .container .twelve-column .span-six-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-nine-col {
@@ -749,10 +775,9 @@ section.projects .projects-heading h3 {
   font-weight: 100;
   margin-top: 0px;
   margin-bottom: 0px;
-  margin-left: auto;
 }
 section.projects .project-listing-row {
-  padding: 56px 0px;
+  padding: 64px 0px;
 }
 section.projects .project-listing-row .projects-row .project {
   position: relative;
@@ -964,6 +989,10 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   width: 70%;
   margin-left: 15%;
 }
+.container .narrow-width-home {
+  width: 80%;
+  margin-left: 10%;
+}
 .container .two-column {
   display: grid;
   grid-column-gap: 32px;
@@ -986,6 +1015,9 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
 .container .twelve-column .span-seven-col {
   grid-column: span 7;
 }
+.container .twelve-column .span-six-col {
+  grid-column: span 6;
+}
 .container .twelve-column .span-nine-col {
   grid-column: span 9;
 }
@@ -998,7 +1030,7 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
     width: 100%;
     margin-right: 0%;
   }
-  .container .narrow-width {
+  .container .narrow-width, .container .narrow-width-home {
     width: 100%;
     margin-left: 0%;
   }
@@ -1024,8 +1056,11 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   .container .twelve-column .span-seven-col {
     grid-column: span 5;
   }
+  .container .twelve-column .span-six-col {
+    grid-column: span 4;
+  }
   .container .twelve-column .span-nine-col {
-    grid-column: span 9;
+    grid-column: span 8;
   }
   .container .twelve-column .span-twelve-col {
     grid-column: span 8;
@@ -1056,6 +1091,9 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
     grid-column: span 1;
   }
   .container .twelve-column .span-seven-col {
+    grid-column: span 1;
+  }
+  .container .twelve-column .span-six-col {
     grid-column: span 1;
   }
   .container .twelve-column .span-nine-col {
