@@ -10,10 +10,13 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
     if($(window).width() < 600)
     {
       img.src = img.src.replace("c_scale,q_50,w_5", "c_scale,q_100,w_900");
+      img.srcset = img.srcset.replace("c_scale,q_50,w_5", "c_scale,q_100,w_900");
     }
 
     else{
       img.src = img.src.replace("c_scale,q_50,w_5", "c_scale,q_100,w_1680");
+      img.srcset = img.srcset.replace("c_scale,q_50,w_5", "c_scale,q_100,w_1680");
+      
     }
     
     imgObserver.unobserve(entry.target);
@@ -21,6 +24,30 @@ const imgObserver = new IntersectionObserver((entries, imgObserver) => {
 }, imgOptions);
 images.forEach((img) => {
   imgObserver.observe(img);
+});
+
+// Lazy loading images - img small
+const images_small = document.querySelectorAll(".lazy-load-small-image");
+const imgOptions_small = {};
+const imgObserver_small = new IntersectionObserver((entries, imgObserver_small) => {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) return;
+
+    const img_small = entry.target;
+    if($(window).width() < 600)
+    {
+      img_small.src = img_small.src.replace("c_scale,q_50,w_5", "c_scale,q_100,w_600");
+    }
+
+    else{
+      img_small.src = img_small.src.replace("c_scale,q_50,w_5", "c_scale,q_100,w_1000");
+    }
+    
+    imgObserver_small.unobserve(entry.target);
+  });
+}, imgOptions);
+images_small.forEach((img_small) => {
+  imgObserver_small.observe(img_small);
 });
 
 // Animate on scroll

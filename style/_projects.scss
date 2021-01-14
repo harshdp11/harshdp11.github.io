@@ -50,7 +50,7 @@ section.project-intro{
             .data-point{
                 display: flex;
                 flex-direction: column;
-                margin-right: 120px;
+                margin-right: 80px;
 
                 p{
                     margin:0px;
@@ -114,8 +114,15 @@ section.project-description{
 
         img{
             width: 100%;
-            margin-top: 48px;
-            margin-bottom: 32px;
+            margin-top: 16px;
+            margin-bottom: 24px;
+        }
+
+
+        .caption{
+            p{
+                text-align: center;
+            }
         }
     }
 
@@ -127,8 +134,13 @@ section.project-description{
     
     .description-text{
         padding-top: 80px;
-        h4{
+        h4,h5,h6{
             margin: 0px;
+        }
+
+        h7{
+            font-weight: 600;
+            margin-top: 8px;
         }
 
         p.p1{
@@ -136,6 +148,10 @@ section.project-description{
             max-width: 90%;
             margin-top: 16px;
             margin-bottom: 24px;
+        }
+
+        .subhead-description{
+            margin-top: 8px !important;
         }
 
         img{
@@ -236,6 +252,11 @@ section.project-screens{
 
     .screen-group{
         padding: 96px 0px;
+
+        .screen-group-description{
+            font-weight: 100;
+            margin-top: 8px;
+        }
 
         .screen-group-title{
             display: flex;
@@ -587,7 +608,6 @@ section.more-projects{
             img{
                 width: 100%;
                 margin-top: 32px;
-                margin-bottom: 24px;
             }
         }
 

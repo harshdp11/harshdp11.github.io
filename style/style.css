@@ -444,10 +444,23 @@ h6 {
   color: #222222;
 }
 
+h6.serif {
+  font-family: grange, sans-serif !important;
+  font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320)));
+  font-weight: 600;
+  letter-spacing: 0.32px;
+}
+
 h7 {
   font-family: neue-haas-grotesk-text, sans-serif;
   letter-spacing: 0px;
   font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
+}
+
+h7.serif {
+  font-family: grange, sans-serif !important;
+  font-weight: 600;
+  letter-spacing: 0.32px;
 }
 
 p.p1 {
@@ -1159,10 +1172,23 @@ h6 {
   color: #222222;
 }
 
+h6.serif {
+  font-family: grange, sans-serif !important;
+  font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320)));
+  font-weight: 600;
+  letter-spacing: 0.32px;
+}
+
 h7 {
   font-family: neue-haas-grotesk-text, sans-serif;
   letter-spacing: 0px;
   font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
+}
+
+h7.serif {
+  font-family: grange, sans-serif !important;
+  font-weight: 600;
+  letter-spacing: 0.32px;
 }
 
 p.p1 {
@@ -1348,7 +1374,7 @@ section.project-intro .project-title .project-data-points {
 section.project-intro .project-title .project-data-points .data-point {
   display: flex;
   flex-direction: column;
-  margin-right: 120px;
+  margin-right: 80px;
 }
 section.project-intro .project-title .project-data-points .data-point p {
   margin: 0px;
@@ -1397,8 +1423,11 @@ section.project-description .adobe-project {
 }
 section.project-description .adobe-project img {
   width: 100%;
-  margin-top: 48px;
-  margin-bottom: 32px;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+section.project-description .adobe-project .caption p {
+  text-align: center;
 }
 section.project-description .adobe-project-text-in-narrow-container p {
   font-weight: 100;
@@ -1406,14 +1435,21 @@ section.project-description .adobe-project-text-in-narrow-container p {
 section.project-description .description-text {
   padding-top: 80px;
 }
-section.project-description .description-text h4 {
+section.project-description .description-text h4, section.project-description .description-text h5, section.project-description .description-text h6 {
   margin: 0px;
+}
+section.project-description .description-text h7 {
+  font-weight: 600;
+  margin-top: 8px;
 }
 section.project-description .description-text p.p1 {
   font-weight: 100;
   max-width: 90%;
   margin-top: 16px;
   margin-bottom: 24px;
+}
+section.project-description .description-text .subhead-description {
+  margin-top: 8px !important;
 }
 section.project-description .description-text img {
   width: 100%;
@@ -1484,6 +1520,10 @@ section.project-screens .no-top-padding {
 }
 section.project-screens .screen-group {
   padding: 96px 0px;
+}
+section.project-screens .screen-group .screen-group-description {
+  font-weight: 100;
+  margin-top: 8px;
 }
 section.project-screens .screen-group .screen-group-title {
   display: flex;
@@ -1757,7 +1797,6 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
   section.project-description .adobe-project img {
     width: 100%;
     margin-top: 32px;
-    margin-bottom: 24px;
   }
   section.project-description .description-text {
     padding-top: 48px;
@@ -1980,6 +2019,17 @@ a:visited {
     transform: translateY(0px);
     opacity: 1;
   }
+}
+.typeform-widget {
+  height: 80vh !important;
+  margin-bottom: 64px;
+}
+
+ul, ol {
+  padding-left: 16px;
+}
+ul p, ol p {
+  margin-bottom: 0px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

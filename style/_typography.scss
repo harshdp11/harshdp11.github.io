@@ -60,10 +60,23 @@ h6{
     color: $text-black;
 }
 
+h6.serif{
+    font-family: $grange !important;
+    font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320))); 
+    font-weight: 600;
+    letter-spacing: 0.32px;
+}
+
 h7{
     font-family: $neue;
     letter-spacing: 0px;
     font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
+}
+
+h7.serif{
+    font-family: $grange !important;
+    font-weight: 600;
+    letter-spacing: 0.32px;
 }
 
 p.p1{
