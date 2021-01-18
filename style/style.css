@@ -750,9 +750,14 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   background-size: 100% !important;
 }
 
+@media screen and (max-height: 600px) {
+  section.landing {
+    height: 150vh;
+  }
+}
 @media screen and (max-width: 1280px) {
   section.landing {
-    height: 70vh;
+    height: 70vh !important;
     background-color: #F5F5F7;
   }
   section.landing .cover-section .hero-text h1 {
@@ -775,7 +780,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 @media screen and (max-width: 600px) {
   section.landing {
-    height: 80vh;
+    height: 80vh !important;
   }
   section.landing .cover-section .intro-text {
     max-width: 100%;

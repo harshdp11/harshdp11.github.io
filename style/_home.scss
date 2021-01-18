@@ -166,10 +166,14 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
        // display: none;
 
 }
-
+@media screen and (max-height: 600px) {
+    section.landing{
+        height: 150vh;
+    }
+}
 @media screen and (max-width: 1280px) {
     section.landing{
-        height: 70vh;
+        height: 70vh !important;
         background-color: $background-grey;
         .cover-section{
             .hero-text{
@@ -201,7 +205,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 
 @media screen and (max-width: 600px) {
     section.landing{
-        height: 80vh;
+        height: 80vh !important;
         .cover-section{
             .intro-text{
                 max-width: 100%;
