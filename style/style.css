@@ -1346,6 +1346,11 @@ section.footer .container p:nth-child(2) {
     display: none;
   }
 }
+ul.no-list-style {
+  list-style: none;
+  padding-left: 0px;
+}
+
 section.page-progress .page-scroll {
   position: fixed;
   top: 0;
@@ -2003,12 +2008,18 @@ body {
 
 a {
   cursor: pointer;
+  color: inherit;
   text-decoration: none;
 }
 
 a:visited {
   text-decoration: none;
   color: #222222;
+}
+
+h7 a:visited {
+  text-decoration: none;
+  color: #222222 !important;
 }
 
 .animate-on-scroll {
@@ -2035,6 +2046,18 @@ ul, ol {
 }
 ul p, ol p {
   margin-bottom: 0px !important;
+}
+
+.external-link:after {
+  position: absolute;
+  padding-left: 8px;
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1610350720/Portfolio%203.0/Home%20page/external-link_pmbqeb.svg);
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.external-link:hover:after {
+  opacity: 1;
 }
 
 /*# sourceMappingURL=style.css.map */

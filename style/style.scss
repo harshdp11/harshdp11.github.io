@@ -42,6 +42,7 @@ body{
 
 a{
   cursor: pointer;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -49,6 +50,13 @@ a{
 a:visited { 
   text-decoration: none; 
   color: $text-black;
+}
+
+h7{
+  a:visited { 
+    text-decoration: none; 
+    color: $text-black !important;
+  }
 }
 
 .animate-on-scroll{
@@ -79,4 +87,16 @@ ul, ol{
   p{
     margin-bottom: 0px !important;
   }
+}
+
+.external-link:after{
+  position:absolute;
+  padding-left:8px;
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1610350720/Portfolio%203.0/Home%20page/external-link_pmbqeb.svg);
+  opacity: 0;
+  transition:0.5s;
+}
+
+.external-link:hover:after{
+  opacity: 1;
 }

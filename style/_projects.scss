@@ -11,6 +11,11 @@ $shadow-dark : 0px 22px 45px rgba(0,0,0,0.06);
 $background-grey: #F5F5F7;
 $primary-pink: #FF103D;
 
+ul.no-list-style{
+    list-style: none;
+    padding-left: 0px;
+}
+
 section.page-progress{
     .page-scroll {
         position: fixed;
