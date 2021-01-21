@@ -1477,6 +1477,10 @@ section.project-description .description-text .adobe-slide {
 section.project-description .description-text .caption p {
   text-align: center;
 }
+section.project-description .description-text .invision-prototype {
+  width: 100%;
+  height: 70vh;
+}
 section.project-description .description-text .description-points {
   margin-top: 32px !important;
 }
