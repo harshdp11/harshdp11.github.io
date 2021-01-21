@@ -1704,11 +1704,14 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
     margin-top: 32px;
   }
   section.project-intro .project-title .project-data-points .data-point {
-    margin-right: 96px;
+    margin-right: 80px;
   }
   section.project-intro .project-title .project-data-points .data-point h7 {
     margin-top: 8px;
     font-weight: 200;
+  }
+  section.project-intro .project-title .project-data-points .data-point:last-child {
+    margin-right: 0px !important;
   }
   section.project-intro .project-cover-image {
     margin-top: 64px;
@@ -2063,6 +2066,10 @@ ul p, ol p {
 
 .external-link:hover:after {
   opacity: 1;
+}
+
+.margin-right-0 {
+  margin-right: 0px !important;
 }
 
 /*# sourceMappingURL=style.css.map */

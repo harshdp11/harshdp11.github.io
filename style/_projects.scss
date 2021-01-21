@@ -476,12 +476,16 @@ section.more-projects{
                 margin-top: 32px;
     
                 .data-point{
-                    margin-right: 96px;
+                    margin-right: 80px;
     
                     h7{
                         margin-top: 8px;
                         font-weight: 200;
                     }
+                }
+
+                .data-point:last-child{
+                    margin-right: 0px !important;
                 }
             }
         }
