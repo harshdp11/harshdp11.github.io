@@ -1470,6 +1470,7 @@ section.project-description .description-text img {
 section.project-description .description-text .embeded-slide {
   width: 100%;
   margin-top: 16px;
+  transform: scale(0.5);
 }
 section.project-description .description-text .adobe-slide {
   margin-bottom: 96px;
