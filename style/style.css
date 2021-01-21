@@ -1470,7 +1470,6 @@ section.project-description .description-text img {
 section.project-description .description-text .embeded-slide {
   width: 100%;
   margin-top: 16px;
-  transform: scale(0.5);
 }
 section.project-description .description-text .adobe-slide {
   margin-bottom: 96px;
@@ -1480,7 +1479,8 @@ section.project-description .description-text .caption p {
 }
 section.project-description .description-text .invision-prototype {
   width: 100%;
-  height: 100vh;
+  height: 80vh;
+  transform: scale(0.75);
 }
 section.project-description .description-text .description-points {
   margin-top: 32px !important;

@@ -169,7 +169,7 @@ section.project-description{
         .embeded-slide{
             width: 100%;
             margin-top: 16px;
-            transform: scale(0.5)
+            
         }
 
         .adobe-slide{
@@ -184,7 +184,8 @@ section.project-description{
 
         .invision-prototype{
             width: 100%;
-            height: 100vh;
+            height: 80vh;
+            transform: scale(0.75);
         }
 
         .description-points{
