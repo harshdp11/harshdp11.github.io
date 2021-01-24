@@ -40,7 +40,7 @@ section.page-progress{
 
 
 section.project-intro{
-    padding-top: 160px;
+    padding-top: 240px;
 
     .project-title{
         h6{
@@ -51,6 +51,7 @@ section.project-intro{
             display: flex;
             flex-direction: row;
             margin-top: 40px;
+            
 
             .data-point{
                 display: flex;
@@ -60,6 +61,7 @@ section.project-intro{
                 p{
                     margin:0px;
                     color: $grey-light;
+                    font-family: $poppins;
                 }
 
                 h7{
@@ -217,7 +219,8 @@ section.project-description{
                 }
 
                 h7{
-                    font-weight: 700;
+                    font-weight: 500;
+                    font-family: $poppins;
                 }
 
                 p.p1{
@@ -311,18 +314,56 @@ section.project-screens{
                     overflow: scroll;
                     border: 1px solid #efefef;
                     cursor:all-scroll;
+                    position: relative;
         
                     img{
                         width: 100%;
                         transition: 0.3s;
+                        
                     }
-            
+
+                    .lazy-load-image{
+                        position: absolute;
+                    }
+
+                    .scroll-indicator{
+                        position: sticky;
+                        top: calc(100% - 60px);
+                        z-index: 12 ;
+                        right: 20px;
+                        float:right;
+                        display: inline-flex;
+                        background-color: $text-black;
+                        border-radius: 4px;
+                        padding: 10px 16px;
+                        box-shadow: 0px 22px 45px rgba(0,0,0,0.2);
+                        overflow: hidden;
+                        transition: 0.4s;
+                        opacity: 0;
+
+                        p{
+                            color: white;
+                            padding-right: 8px;
+                            margin: 0px;
+                            letter-spacing: 0.48px;
+                            font-size: 14px;
+                            
+                        }
+
+                    }
+                }
+
+                .scroll-container:hover{
+                    .scroll-indicator{
+                        opacity: 1;
+                    }
                 }
     
                 img{
                     width: 100%;
                     transition: 0.3s;
                     box-shadow: $shadow;
+                    position: relative;
                 }
 
                 .no-shadow{
@@ -403,11 +444,12 @@ section.more-projects{
         margin-right: auto;
 
         h5{
-            font-weight: 600;
+            font-weight: 200;
             margin: 0px;
+            color: $grey-light;
 
             span{
-                letter-spacing: -3px;
+                letter-spacing: -5px;
             }
         }
 
@@ -469,14 +511,16 @@ section.more-projects{
 
 @media screen and (max-width: 1280px) {
     section.project-intro{
-        padding-top: 120px;
+        padding-top: 160px;
     
         .project-title{
             .project-data-points{
                 margin-top: 32px;
-    
+                flex-wrap: wrap;
                 .data-point{
-                    margin-right: 80px;
+                    margin-right: 72px;
+                    margin-top: 24px;
+                    
     
                     h7{
                         margin-top: 8px;
@@ -587,7 +631,7 @@ section.more-projects{
 
 @media screen and (max-width: 600px) {
     section.project-intro{
-        padding-top: 96px;
+        padding-top: 160px;
     
         .project-title{
 
@@ -595,7 +639,11 @@ section.more-projects{
                 line-height: 32px;
             }
             .project-data-points{
-                display: none;
+                flex-direction: column;
+
+                .data-point{
+                    margin-bottom: 24px;
+                }
             }
         }
     
@@ -718,7 +766,7 @@ section.more-projects{
 .scrolltop {
     display:none;
     padding: 18px 24px;
-    border-radius: 100%;
+    border-radius: 4px;
 	margin:0 auto;
 	position:fixed;
 	bottom:32px;

@@ -136,6 +136,11 @@ navbar .navbar-mobile .menu-expanded .menu-top, navbar .navbar-mobile, navbar .n
 
 navbar {
   width: 100%;
+  background-color: white;
+  position: fixed;
+  transition: 0.6s;
+  z-index: 100;
+  top: 0px;
 }
 navbar .navbar-desktop .navigation-links {
   margin-left: auto;
@@ -164,7 +169,7 @@ navbar .navbar-desktop .navigation-links a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FF103D;
+  background-color: #d2d2d2;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -176,7 +181,7 @@ navbar .navbar-desktop .navigation-links .external-link:hover:after {
   opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
-  border-bottom: 2x solid #FF103D;
+  border-bottom: 2x solid #999999;
 }
 navbar .navbar-mobile {
   display: none;
@@ -217,8 +222,10 @@ navbar .navbar-mobile .menu-expanded .menu-links {
   margin-bottom: auto;
 }
 navbar .navbar-mobile .menu-expanded .menu-links a {
-  font-family: grange, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222222;
+  font-weight: 100;
+  letter-spacing: -0.5px;
   font-size: 32px;
   margin-top: 64px;
 }
@@ -389,23 +396,25 @@ section.footer .container p:nth-child(2) {
   }
 }
 h1 {
-  font-family: grange, sans-serif;
-  letter-spacing: -1px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -4px;
   font-size: calc(35px + (80 - 35) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 600;
+  line-height: calc(48px + (108 - 48) * ((100vw - 320px) / (1680 - 320)));
+  font-weight: 400;
 }
 
 h2 {
-  font-family: grange, sans-serif;
-  letter-spacing: 0px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -2px;
   font-size: calc(32px + (64 - 32) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 600;
+  font-weight: 400;
   margin: 0px;
 }
 
 h3 {
-  font-family: neue-haas-grotesk-text, sans-serif;
-  letter-spacing: 0px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -2px;
+  font-weight: 300;
   font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1680 - 320)));
 }
 
@@ -416,9 +425,9 @@ h4 {
 }
 
 h4.serif {
-  font-family: grange, sans-serif !important;
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 h5 {
@@ -429,9 +438,9 @@ h5 {
 }
 
 h5.serif {
-  font-family: grange, sans-serif !important;
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 h6 {
@@ -445,10 +454,10 @@ h6 {
 }
 
 h6.serif {
-  font-family: grange, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
 }
 
 h7 {
@@ -458,9 +467,9 @@ h7 {
 }
 
 h7.serif {
-  font-family: grange, sans-serif !important;
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 p.p1 {
@@ -488,6 +497,11 @@ navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expan
 
 navbar {
   width: 100%;
+  background-color: white;
+  position: fixed;
+  transition: 0.6s;
+  z-index: 100;
+  top: 0px;
 }
 navbar .navbar-desktop .navigation-links {
   margin-left: auto;
@@ -516,7 +530,7 @@ navbar .navbar-desktop .navigation-links a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FF103D;
+  background-color: #d2d2d2;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -528,7 +542,7 @@ navbar .navbar-desktop .navigation-links .external-link:hover:after {
   opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
-  border-bottom: 2x solid #FF103D;
+  border-bottom: 2x solid #999999;
 }
 navbar .navbar-mobile {
   display: none;
@@ -569,8 +583,10 @@ navbar .navbar-mobile .menu-expanded .menu-links {
   margin-bottom: auto;
 }
 navbar .navbar-mobile .menu-expanded .menu-links a {
-  font-family: grange, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222222;
+  font-weight: 100;
+  letter-spacing: -0.5px;
   font-size: 32px;
   margin-top: 64px;
 }
@@ -622,9 +638,6 @@ section.landing {
   flex-direction: column;
   border-bottom: 1px solid #eeeeee;
 }
-section.landing navbar {
-  position: absolute;
-}
 section.landing .cover-section {
   display: flex;
   width: 100%;
@@ -675,7 +688,7 @@ section.landing .cover-section .hero-text .landing-text .block-2 h1 {
 }
 section.landing .cover-section .hero-text .landing-text .block-2 .ampersand {
   font-family: kansasnew, serif;
-  font-weight: 300;
+  font-weight: 400;
 }
 @keyframes fadeIn {
   0% {
@@ -698,28 +711,25 @@ section.landing .cover-section .hero-text .circles {
   overflow: visible;
 }
 section.landing .cover-section .hero-text .circles .circle-1 {
-  margin-right: 10%;
-  width: 90%;
-  padding-top: 90%;
+  padding-top: 100%;
   border-radius: 100%;
   transform: rotate(10deg);
   opacity: 0.39;
   overflow: visible;
   background-color: white;
-  background-image: linear-gradient(53deg, #ffffff 16%, #7b53fd 66%, #eb5454 87%, #b4ec51 87%, #eb5454 87%);
+  background-image: linear-gradient(227deg, #e8e8e8 99%, #f5f5f7 51%, #fefefe 10%, #ffffff 10%);
 }
 section.landing .cover-section .hero-text .circles .circle-2 {
   position: absolute;
-  margin-right: 10%;
   top: 0;
-  width: 90%;
-  padding-top: 90%;
+  width: 100%;
+  padding-top: 100%;
   border-radius: 100%;
-  opacity: 0.45;
-  filter: blur(40px);
+  opacity: 0.4;
+  filter: blur(30px);
   overflow: visible;
   background-blend-mode: multiply;
-  background-image: linear-gradient(53deg, #ffffff 18%, #18bbce 46%, #de0082 86%, #b4ec51 86%, #eb5454 86%);
+  background-image: linear-gradient(227deg, #e8e8e8 99%, #f5f5f7 51%, #fefefe 10%, #ffffff 10%);
   background-size: 200%;
   background-color: white;
   animation: bg-animation 2.5s infinite alternate;
@@ -790,9 +800,10 @@ section.projects {
   padding: 120px 0px;
 }
 section.projects .projects-heading h3 {
-  font-weight: 100;
+  font-weight: 300;
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #999999;
 }
 section.projects .project-listing-row {
   padding: 64px 0px;
@@ -1122,23 +1133,25 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   }
 }
 h1 {
-  font-family: grange, sans-serif;
-  letter-spacing: -1px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -4px;
   font-size: calc(35px + (80 - 35) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 600;
+  line-height: calc(48px + (108 - 48) * ((100vw - 320px) / (1680 - 320)));
+  font-weight: 400;
 }
 
 h2 {
-  font-family: grange, sans-serif;
-  letter-spacing: 0px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -2px;
   font-size: calc(32px + (64 - 32) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 600;
+  font-weight: 400;
   margin: 0px;
 }
 
 h3 {
-  font-family: neue-haas-grotesk-text, sans-serif;
-  letter-spacing: 0px;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: -2px;
+  font-weight: 300;
   font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1680 - 320)));
 }
 
@@ -1149,9 +1162,9 @@ h4 {
 }
 
 h4.serif {
-  font-family: grange, sans-serif !important;
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 h5 {
@@ -1162,9 +1175,9 @@ h5 {
 }
 
 h5.serif {
-  font-family: grange, sans-serif !important;
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  letter-spacing: -1px;
 }
 
 h6 {
@@ -1178,10 +1191,10 @@ h6 {
 }
 
 h6.serif {
-  font-family: grange, sans-serif !important;
+  font-family: "Poppins", sans-serif !important;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-weight: 500;
+  letter-spacing: -0.5px;
 }
 
 h7 {
@@ -1191,9 +1204,9 @@ h7 {
 }
 
 h7.serif {
-  font-family: grange, sans-serif !important;
-  font-weight: 600;
-  letter-spacing: 0.32px;
+  font-family: "Poppins", sans-serif !important;
+  font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 p.p1 {
@@ -1221,6 +1234,11 @@ navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expan
 
 navbar {
   width: 100%;
+  background-color: white;
+  position: fixed;
+  transition: 0.6s;
+  z-index: 100;
+  top: 0px;
 }
 navbar .navbar-desktop .navigation-links {
   margin-left: auto;
@@ -1249,7 +1267,7 @@ navbar .navbar-desktop .navigation-links a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #FF103D;
+  background-color: #d2d2d2;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -1261,7 +1279,7 @@ navbar .navbar-desktop .navigation-links .external-link:hover:after {
   opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
-  border-bottom: 2x solid #FF103D;
+  border-bottom: 2x solid #999999;
 }
 navbar .navbar-mobile {
   display: none;
@@ -1302,8 +1320,10 @@ navbar .navbar-mobile .menu-expanded .menu-links {
   margin-bottom: auto;
 }
 navbar .navbar-mobile .menu-expanded .menu-links a {
-  font-family: grange, sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #222222;
+  font-weight: 100;
+  letter-spacing: -0.5px;
   font-size: 32px;
   margin-top: 64px;
 }
@@ -1370,7 +1390,7 @@ section.page-progress .progress-bar {
 }
 
 section.project-intro {
-  padding-top: 160px;
+  padding-top: 240px;
 }
 section.project-intro .project-title h6 {
   margin-top: 12px;
@@ -1389,6 +1409,7 @@ section.project-intro .project-title .project-data-points .data-point {
 section.project-intro .project-title .project-data-points .data-point p {
   margin: 0px;
   color: #999999;
+  font-family: "Poppins", sans-serif;
 }
 section.project-intro .project-title .project-data-points .data-point h7 {
   margin-top: 8px;
@@ -1504,7 +1525,8 @@ section.project-description .description-text .description-points .project-info-
   margin-bottom: 16px;
 }
 section.project-description .description-text .description-points .project-info-point h7 {
-  font-weight: 700;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
 }
 section.project-description .description-text .description-points .project-info-point p.p1 {
   margin-top: 8px;
@@ -1578,15 +1600,45 @@ section.project-screens .screen-group .visual-and-caption .visual-group .scroll-
   overflow: scroll;
   border: 1px solid #efefef;
   cursor: all-scroll;
+  position: relative;
 }
 section.project-screens .screen-group .visual-and-caption .visual-group .scroll-container img {
   width: 100%;
   transition: 0.3s;
 }
+section.project-screens .screen-group .visual-and-caption .visual-group .scroll-container .lazy-load-image {
+  position: absolute;
+}
+section.project-screens .screen-group .visual-and-caption .visual-group .scroll-container .scroll-indicator {
+  position: sticky;
+  top: calc(100% - 60px);
+  z-index: 12;
+  right: 20px;
+  float: right;
+  display: inline-flex;
+  background-color: #222222;
+  border-radius: 4px;
+  padding: 10px 16px;
+  box-shadow: 0px 22px 45px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  transition: 0.4s;
+  opacity: 0;
+}
+section.project-screens .screen-group .visual-and-caption .visual-group .scroll-container .scroll-indicator p {
+  color: white;
+  padding-right: 8px;
+  margin: 0px;
+  letter-spacing: 0.48px;
+  font-size: 14px;
+}
+section.project-screens .screen-group .visual-and-caption .visual-group .scroll-container:hover .scroll-indicator {
+  opacity: 1;
+}
 section.project-screens .screen-group .visual-and-caption .visual-group img {
   width: 100%;
   transition: 0.3s;
   box-shadow: 0px 52px 55px rgba(0, 0, 0, 0.06);
+  position: relative;
 }
 section.project-screens .screen-group .visual-and-caption .visual-group .no-shadow {
   box-shadow: none !important;
@@ -1652,11 +1704,12 @@ section.more-projects .medium-width {
   margin-right: auto;
 }
 section.more-projects .medium-width h5 {
-  font-weight: 600;
+  font-weight: 200;
   margin: 0px;
+  color: #999999;
 }
 section.more-projects .medium-width h5 span {
-  letter-spacing: -3px;
+  letter-spacing: -5px;
 }
 section.more-projects .medium-width .explore-projects {
   margin-top: 48px;
@@ -1698,13 +1751,15 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
 
 @media screen and (max-width: 1280px) {
   section.project-intro {
-    padding-top: 120px;
+    padding-top: 160px;
   }
   section.project-intro .project-title .project-data-points {
     margin-top: 32px;
+    flex-wrap: wrap;
   }
   section.project-intro .project-title .project-data-points .data-point {
-    margin-right: 80px;
+    margin-right: 72px;
+    margin-top: 24px;
   }
   section.project-intro .project-title .project-data-points .data-point h7 {
     margin-top: 8px;
@@ -1788,13 +1843,16 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
 }
 @media screen and (max-width: 600px) {
   section.project-intro {
-    padding-top: 96px;
+    padding-top: 160px;
   }
   section.project-intro .project-title h6 {
     line-height: 32px;
   }
   section.project-intro .project-title .project-data-points {
-    display: none;
+    flex-direction: column;
+  }
+  section.project-intro .project-title .project-data-points .data-point {
+    margin-bottom: 24px;
   }
   section.project-intro .project-cover-image {
     margin-top: 48px;
@@ -1883,7 +1941,7 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
 .scrolltop {
   display: none;
   padding: 18px 24px;
-  border-radius: 100%;
+  border-radius: 4px;
   margin: 0 auto;
   position: fixed;
   bottom: 32px;
@@ -1985,8 +2043,7 @@ section.bio .medium-width .bio-container .bio-text p.p1 {
   }
 }
 ::selection {
-  color: white;
-  background: #FF103D;
+  background: #F5F5F7;
 }
 
 html {

@@ -1,27 +1,29 @@
 $neue: neue-haas-grotesk-text, sans-serif;
-$grange: grange, sans-serif;
 $kansas : kansasnew, serif;
+$poppins : 'Poppins', sans-serif;
 
 $text-black: #222222;
 
 h1{
-    font-family: $grange;
-    letter-spacing: -1px;
+    font-family: $poppins;
+    letter-spacing: -4px;
     font-size: calc(35px + (80 - 35) * ((100vw - 320px) / (1680 - 320))); 
-    font-weight: 600;
+    line-height: calc(48px + (108 - 48) * ((100vw - 320px) / (1680 - 320))); 
+    font-weight: 400;
 }
 
 h2{
-    font-family: $grange;
-    letter-spacing: 0px;
+    font-family: $poppins;
+    letter-spacing: -2px;
     font-size: calc(32px + (64 - 32) * ((100vw - 320px) / (1680 - 320))); 
-    font-weight: 600;
+    font-weight: 400;
     margin: 0px;
 }
 
 h3{
-    font-family: $neue;
-    letter-spacing: 0px;
+    font-family: $poppins;
+    letter-spacing: -2px;
+    font-weight: 300;
     font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1680 - 320))); 
 }
 
@@ -32,9 +34,9 @@ h4{
 }
 
 h4.serif{
-    font-family: $grange !important;
-    font-weight: 600;
-    letter-spacing: 0.32px;
+    font-family: $poppins !important;
+    font-weight: 400;
+    letter-spacing: -1px;
 }
 
 h5{
@@ -45,9 +47,9 @@ h5{
 }
 
 h5.serif{
-    font-family: $grange !important;
-    font-weight: 600;
-    letter-spacing: 0.32px;
+    font-family: $poppins !important;
+    font-weight: 400;
+    letter-spacing: -1px;
 }
 
 h6{
@@ -61,10 +63,10 @@ h6{
 }
 
 h6.serif{
-    font-family: $grange !important;
+    font-family: $poppins !important;
     font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320))); 
-    font-weight: 600;
-    letter-spacing: 0.32px;
+    font-weight: 500;
+    letter-spacing: -0.5px;
 }
 
 h7{
@@ -74,9 +76,9 @@ h7{
 }
 
 h7.serif{
-    font-family: $grange !important;
-    font-weight: 600;
-    letter-spacing: 0.32px;
+    font-family: $poppins !important;
+    font-weight: 400;
+    letter-spacing: -0.5px;
 }
 
 p.p1{

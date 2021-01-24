@@ -112,3 +112,23 @@ $(function(){$(".scrolltop").click(function(){$("html,body").animate({scrollTop:
 // parallax 
 var rellax = new Rellax('.rellax');
 
+// Page scroll indicator in project pages
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  document.getElementById("progressBar").style.width = scrolled + "%";
+}
+
+
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-150px";
+  }
+  prevScrollpos = currentScrollPos;
+}
