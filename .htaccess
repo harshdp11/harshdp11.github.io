@@ -1,5 +1,5 @@
 RewriteEngine on
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
-RewriteRule ^(.*)$ $1.html [NC,L]
 RewriteRule ^index\.(php|html?)$ http://harshdeep.me/ [R=301,L]
+RewriteRule ^(.*)$ $1.html [NC,L]
