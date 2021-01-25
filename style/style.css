@@ -224,7 +224,7 @@ navbar .navbar-mobile .menu-expanded .menu-links {
 navbar .navbar-mobile .menu-expanded .menu-links a {
   font-family: "Poppins", sans-serif;
   color: #222222;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: -0.5px;
   font-size: 32px;
   margin-top: 64px;
@@ -456,7 +456,7 @@ h6 {
 h6.serif {
   font-family: "Poppins", sans-serif !important;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.5px;
 }
 
@@ -585,7 +585,7 @@ navbar .navbar-mobile .menu-expanded .menu-links {
 navbar .navbar-mobile .menu-expanded .menu-links a {
   font-family: "Poppins", sans-serif;
   color: #222222;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: -0.5px;
   font-size: 32px;
   margin-top: 64px;
@@ -1193,7 +1193,7 @@ h6 {
 h6.serif {
   font-family: "Poppins", sans-serif !important;
   font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320)));
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: -0.5px;
 }
 
@@ -1322,7 +1322,7 @@ navbar .navbar-mobile .menu-expanded .menu-links {
 navbar .navbar-mobile .menu-expanded .menu-links a {
   font-family: "Poppins", sans-serif;
   color: #222222;
-  font-weight: 100;
+  font-weight: 200;
   letter-spacing: -0.5px;
   font-size: 32px;
   margin-top: 64px;
@@ -1965,7 +1965,7 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
   }
 }
 section.bio {
-  padding: 120px 0px;
+  padding: 200px 0px;
 }
 section.bio .medium-width {
   margin-left: auto;
@@ -1993,12 +1993,12 @@ section.bio .medium-width .bio-container .profile-image img {
   width: 100%;
 }
 section.bio .medium-width .bio-container .bio-text h5 {
-  font-weight: 700;
-  line-height: 38px;
+  font-weight: 500;
+  line-height: calc(28px + (32 - 24) * ((100vw - 320px) / (1680 - 320))) !important;
   margin-top: 0px;
   margin-bottom: 0px;
   letter-spacing: -1px;
-  font-size: calc(22px + (26 - 22) * ((100vw - 320px) / (1680 - 320))) !important;
+  font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1680 - 320))) !important;
 }
 section.bio .medium-width .bio-container .bio-text p.p1 {
   font-weight: 100;
@@ -2102,7 +2102,7 @@ h7 a:visited {
   }
 }
 .typeform-widget {
-  height: 80vh !important;
+  height: 100vh !important;
   margin-bottom: 64px;
 }
 

@@ -1,5 +1,5 @@
 section.bio{
-    padding: 120px 0px;
+    padding: 200px 0px;
 
     .medium-width{
         margin-left: auto;
@@ -27,12 +27,12 @@ section.bio{
             .bio-text{
         
                 h5{
-                    font-weight: 700;
-                    line-height: 38px;
+                    font-weight: 500;
+                    line-height: calc(28px + (32 - 24) * ((100vw - 320px) / (1680 - 320))) !important;
                     margin-top: 0px;
                     margin-bottom: 0px;
                     letter-spacing: -1px;
-                    font-size: calc(22px + (26 - 22) * ((100vw - 320px) / (1680 - 320))) !important;
+                    font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1680 - 320))) !important;
                 }
 
                 p.p1{
