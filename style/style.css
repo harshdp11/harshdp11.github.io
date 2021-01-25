@@ -1384,7 +1384,7 @@ section.page-progress .progress-container {
 }
 section.page-progress .progress-bar {
   height: 2px;
-  background: #A9A6A6;
+  background: #222222;
   width: 0%;
 }
 
