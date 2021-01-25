@@ -109,20 +109,11 @@ $(window).scroll(function() {
 });
 $(function(){$(".scrolltop").click(function(){$("html,body").animate({scrollTop:$(".navigation").offset().top},"1500");return false})});
 
-// parallax 
-var rellax = new Rellax('.rellax');
-
-// Page scroll indicator in project pages
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {myFunction()};
-function myFunction() {
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  document.getElementById("progressBar").style.width = scrolled + "%";
-}
 
 
+
+
+/*
 window.onscroll = function() {
 var currentScrollPos = window.pageYOffset;
   if (prevScrollpos > currentScrollPos) {
@@ -132,3 +123,44 @@ var currentScrollPos = window.pageYOffset;
   }
   prevScrollpos = currentScrollPos;
 }
+
+// Page scroll indicator in project pages
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  console.log('fdfdd');
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  console.log(scrolled);
+  document.getElementById("progressBar").style.width = scrolled + "%";
+}
+*/
+
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {myFunction()};
+function myFunction() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-150px";
+  }
+  prevScrollpos = currentScrollPos;
+  
+  console.log('fdfdd');
+  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  console.log(scrolled);
+  document.getElementById("progressBar").style.width = scrolled + "%";
+}
+
+
+
+
+
+
+// parallax 
+var rellax = new Rellax('.rellax');

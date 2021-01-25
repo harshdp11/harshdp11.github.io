@@ -800,7 +800,7 @@ section.projects {
   padding: 120px 0px;
 }
 section.projects .projects-heading h3 {
-  font-weight: 300;
+  font-weight: 300 !important;
   margin-top: 0px;
   margin-bottom: 0px;
   color: #999999;
@@ -1374,18 +1374,17 @@ ul.no-list-style {
 section.page-progress .page-scroll {
   position: fixed;
   top: 0;
-  z-index: 1;
+  z-index: 200;
   width: 100%;
-  background-color: #f1f1f1;
+  background-color: white;
 }
 section.page-progress .progress-container {
   width: 100%;
   height: 2px;
-  background: white;
 }
 section.page-progress .progress-bar {
   height: 2px;
-  background: #FF103D;
+  background: #A9A6A6;
   width: 0%;
 }
 
