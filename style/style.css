@@ -1568,6 +1568,11 @@ section.project-description .description-text .description-points .right-column 
   margin-top: 200px;
 }
 
+@media screen and (max-width: 600px) {
+  .prototype-section {
+    display: none;
+  }
+}
 section.project-screens {
   padding-top: 80px;
   padding-bottom: 0px;
