@@ -7,7 +7,7 @@ $text-black: #222222;
 h1{
     font-family: $poppins;
     letter-spacing: -4px;
-    font-size: calc(35px + (80 - 35) * ((100vw - 320px) / (1680 - 320))); 
+    font-size: calc(32px + (80 - 32) * ((100vw - 320px) / (1680 - 320))); 
     line-height: calc(48px + (108 - 48) * ((100vw - 320px) / (1680 - 320))); 
     font-weight: 400;
 }
@@ -84,13 +84,72 @@ h7.serif{
 p.p1{
     font-family: $neue;
     letter-spacing: 0px;
-    font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1680 - 320))); 
-    line-height: calc(24px + (32 - 24) * ((100vw - 320px) / (1680 - 320)));
+    font-size: 18px;
+    line-height: 32px;
 }
 
 p.p2{
     font-family: $neue;
     letter-spacing: 0px;
     font-weight: 100;
-    font-size: calc(13px + (16 - 13) * ((100vw - 320px) / (1680 - 320))); 
+    font-size: 16px;
+}
+
+@media screen and (max-width: 1280px) {
+    h1{
+        letter-spacing: -2px;
+    }
+    
+    h2{
+        
+    }
+    
+    h3{
+        letter-spacing: -1px;
+    }
+    
+    h4{
+        
+    }
+    
+    h4.serif{
+        
+    }
+    
+    h5{
+       
+    }
+    
+    h5.serif{
+        
+    }
+    
+    h6{
+        
+    }
+    
+    h6.serif{
+        
+    }
+    
+    h7{
+        
+    }
+    
+    h7.serif{
+        
+    }
+    
+    p.p1{
+        font-size: 17px;
+        line-height: 28px;
+    }
+    
+    p.p2{
+        
+    }
+}
+
+@media screen and (max-width: 600px) {
+    
 }

@@ -76,6 +76,7 @@ navbar{
 
     .navbar-mobile{
         display: none;
+        padding: 30px 0px;
         @extend %container-css;
 
         .logo{
@@ -107,6 +108,7 @@ navbar{
             .menu-top{
                 z-index: 5;
                 position: absolute;
+                padding: 30px 0px;
                 @extend %container-css;
 
                 .close-icon{
@@ -124,9 +126,9 @@ navbar{
                 a{
                     font-family: $poppins;
                     color: $text-black;
-                    font-weight: 200;
+                    font-weight: 300 !important;
                     letter-spacing: -0.5px;
-                    font-size: 32px;
+                    font-size: 26px;
                     margin-top: 64px;
                 }
 
