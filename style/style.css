@@ -2128,4 +2128,14 @@ ul p, ol p {
   margin-right: 0px !important;
 }
 
+.inline-link {
+  font-weight: 600;
+  opacity: 1;
+  transition: 0.6s;
+}
+
+.inline-link:hover {
+  opacity: 0.5;
+}
+
 /*# sourceMappingURL=style.css.map */
