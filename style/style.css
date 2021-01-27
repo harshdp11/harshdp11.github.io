@@ -136,6 +136,7 @@ navbar .navbar-mobile .menu-expanded .menu-top, navbar .navbar-mobile, navbar .n
 
 navbar {
   width: 100%;
+  max-width: 1920px;
   background-color: white;
   position: fixed;
   transition: 0.6s;
@@ -489,10 +490,6 @@ p.p2 {
 }
 
 @media screen and (max-width: 1280px) {
-  h1 {
-    letter-spacing: -2px;
-  }
-
   h3 {
     letter-spacing: -1px;
   }
@@ -500,6 +497,40 @@ p.p2 {
   p.p1 {
     font-size: 17px;
     line-height: 28px;
+  }
+}
+@media screen and (min-width: 1921px) {
+  h1 {
+    font-size: 80px;
+    line-height: 108px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  h4 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 32px;
+  }
+
+  h6 {
+    font-size: 24px;
+  }
+
+  h6.serif {
+    font-size: 26px;
+  }
+
+  h7 {
+    font-size: 20px;
   }
 }
 navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expanded .menu-top {
@@ -513,6 +544,7 @@ navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expan
 
 navbar {
   width: 100%;
+  max-width: 1920px;
   background-color: white;
   position: fixed;
   transition: 0.6s;
@@ -1241,10 +1273,6 @@ p.p2 {
 }
 
 @media screen and (max-width: 1280px) {
-  h1 {
-    letter-spacing: -2px;
-  }
-
   h3 {
     letter-spacing: -1px;
   }
@@ -1252,6 +1280,40 @@ p.p2 {
   p.p1 {
     font-size: 17px;
     line-height: 28px;
+  }
+}
+@media screen and (min-width: 1921px) {
+  h1 {
+    font-size: 80px;
+    line-height: 108px;
+  }
+
+  h2 {
+    font-size: 64px;
+  }
+
+  h3 {
+    font-size: 48px;
+  }
+
+  h4 {
+    font-size: 36px;
+  }
+
+  h5 {
+    font-size: 32px;
+  }
+
+  h6 {
+    font-size: 24px;
+  }
+
+  h6.serif {
+    font-size: 26px;
+  }
+
+  h7 {
+    font-size: 20px;
   }
 }
 navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expanded .menu-top {
@@ -1265,6 +1327,7 @@ navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expan
 
 navbar {
   width: 100%;
+  max-width: 1920px;
   background-color: white;
   position: fixed;
   transition: 0.6s;
@@ -1741,7 +1804,7 @@ section.more-projects .medium-width {
   margin-right: auto;
 }
 section.more-projects .medium-width h5 {
-  font-weight: 200;
+  font-weight: 400 !important;
   margin: 0px;
   color: #999999;
 }
@@ -2057,8 +2120,8 @@ section.bio .medium-width .bio-container .bio-text p.p1 {
   section.bio .medium-width .bio-container .bio-text h5 {
     margin-top: 0px;
     line-height: 34px;
-    letter-spacing: 0px;
-    line-height: 32px;
+    letter-spacing: -1px;
+    line-height: 36px;
   }
 }
 @media screen and (max-width: 600px) {
@@ -2087,6 +2150,7 @@ section.bio .medium-width .bio-container .bio-text p.p1 {
 html {
   width: 100%;
   scroll-behavior: smooth;
+  background-color: #f9f9f9;
 }
 
 body {
@@ -2095,6 +2159,7 @@ body {
   max-width: 1920px;
   color: #222222;
   position: relative;
+  background-color: white;
 }
 
 @keyframes fadeIn {
