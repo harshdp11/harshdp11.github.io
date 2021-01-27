@@ -130,7 +130,7 @@ navbar .navbar-mobile .menu-expanded .menu-top, navbar .navbar-mobile, navbar .n
   margin-left: 7%;
   display: flex;
   flex-direction: row;
-  padding: 40px 0px;
+  padding: 30px 0px;
   align-items: center;
 }
 
@@ -538,7 +538,7 @@ navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expan
   margin-left: 7%;
   display: flex;
   flex-direction: row;
-  padding: 40px 0px;
+  padding: 30px 0px;
   align-items: center;
 }
 
@@ -1321,7 +1321,7 @@ navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expan
   margin-left: 7%;
   display: flex;
   flex-direction: row;
-  padding: 40px 0px;
+  padding: 30px 0px;
   align-items: center;
 }
 
@@ -2054,7 +2054,6 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
 }
 
 .scrolltop:hover {
-  border: 1px solid #999999;
   box-shadow: 0px 22px 45px rgba(0, 0, 0, 0.2);
 }
 
