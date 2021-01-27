@@ -499,7 +499,7 @@ p.p2 {
     line-height: 28px;
   }
 }
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1681px) {
   h1 {
     font-size: 80px;
     line-height: 108px;
@@ -1282,7 +1282,7 @@ p.p2 {
     line-height: 28px;
   }
 }
-@media screen and (min-width: 1921px) {
+@media screen and (min-width: 1681px) {
   h1 {
     font-size: 80px;
     line-height: 108px;
@@ -1516,8 +1516,8 @@ section.project-intro .project-cover-image {
   overflow: hidden;
 }
 section.project-intro .project-cover-image .cover-image-container {
-  width: 86vw;
-  height: 48.375vw;
+  width: 86%;
+  height: 48.375%;
   overflow: hidden;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1872,8 +1872,8 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
     margin-top: 64px;
   }
   section.project-intro .project-cover-image .cover-image-container {
-    width: 86vw;
-    height: 48.375vw;
+    width: 86%;
+    height: 48.375%;
     overflow: hidden;
     background-repeat: no-repeat;
     background-size: cover;
