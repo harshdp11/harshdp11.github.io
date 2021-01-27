@@ -1472,6 +1472,7 @@ section.page-progress .page-scroll {
   top: 0;
   z-index: 200;
   width: 100%;
+  max-width: 1920px;
   background-color: white;
 }
 section.page-progress .progress-container {
