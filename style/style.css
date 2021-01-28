@@ -1709,7 +1709,6 @@ section.project-screens .screen-group .visual-and-caption .visual-group .scroll-
 }
 section.project-screens .screen-group .visual-and-caption .visual-group .scroll-container .lazy-load-image {
   position: absolute;
-  transition: 3s !important;
 }
 section.project-screens .screen-group .visual-and-caption .visual-group .scroll-container .scroll-indicator {
   position: sticky;
@@ -2242,13 +2241,6 @@ ul p, ol p {
 
 .inline-link:hover {
   opacity: 0.5;
-}
-
-picture source {
-  transition: 3s !important;
-}
-picture img {
-  transition: 3s !important;
 }
 
 /*# sourceMappingURL=style.css.map */
