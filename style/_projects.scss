@@ -331,6 +331,7 @@ section.project-screens{
 
                     .lazy-load-image{
                         position: absolute;
+                        transition: 3s !important;
                     }
 
                     .scroll-indicator{
@@ -369,6 +370,7 @@ section.project-screens{
                 img{
                     width: 100%;
                     transition: 0.3s;
+                    height: auto;
                     box-shadow: $shadow;
                     position: relative;
                 }
@@ -469,6 +471,7 @@ section.more-projects{
 
                     img{
                         width: 100%;
+                       
                         transition: all 0.6s ease-in-out;
                         transform: scale(1.06);
                     }

@@ -115,3 +115,12 @@ ul, ol{
 .inline-link:hover{
   opacity: 0.5;
 }
+
+picture{
+  source{
+    transition: 3s !important;
+  }
+  img{
+    transition: 3s !important;
+  }
+}
