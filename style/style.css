@@ -263,7 +263,7 @@ section.footer .container {
   flex-direction: row;
 }
 section.footer .container p {
-  font-weight: 100;
+  font-weight: 300;
 }
 section.footer .container p:nth-child(2) {
   margin-left: auto;
@@ -682,7 +682,7 @@ section.footer .container {
   flex-direction: row;
 }
 section.footer .container p {
-  font-weight: 100;
+  font-weight: 300;
 }
 section.footer .container p:nth-child(2) {
   margin-left: auto;
@@ -1487,7 +1487,7 @@ section.footer .container {
   flex-direction: row;
 }
 section.footer .container p {
-  font-weight: 100;
+  font-weight: 300;
 }
 section.footer .container p:nth-child(2) {
   margin-left: auto;

@@ -107,35 +107,15 @@ $(window).scroll(function() {
       $('.scrolltop').stop(true, true).fadeOut();
   }
 });
-$(function(){$(".scrolltop").click(function(){$("html,body").animate({scrollTop:$(".navigation").offset().top},"1500");return false})});
+
+$(function(){
+    $(".scrolltop").click(function(){
+        $("html,body").animate({
+          scrollTop:$(".navigation").offset().top},"1500");
+          return false
+})});
 
 
-
-
-
-/*
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    document.getElementById("navbar").style.top = "0";
-  } else {
-    document.getElementById("navbar").style.top = "-150px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-// Page scroll indicator in project pages
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {myFunction()};
-function myFunction() {
-  console.log('fdfdd');
-  var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
-  var scrolled = (winScroll / height) * 100;
-  console.log(scrolled);
-  document.getElementById("progressBar").style.width = scrolled + "%";
-}
-*/
 
 
 var prevScrollpos = window.pageYOffset;
