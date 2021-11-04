@@ -2225,6 +2225,7 @@ body {
   color: #222222;
   position: relative;
   background-color: white;
+  transition: 1s ease-in-out;
 }
 
 @keyframes fadeIn {
