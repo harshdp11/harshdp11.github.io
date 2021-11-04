@@ -882,7 +882,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
   }
 }
 section.projects {
-  padding: 0px 0px;
+  padding: 40px 0px;
 }
 section.projects .projects-heading h4 {
   font-weight: 400 !important;
@@ -2152,7 +2152,6 @@ section.bio .medium-width .bio-container .bio-text .hello-flex h3 {
 section.bio .medium-width .bio-container .bio-text .hello-flex .blue-line {
   width: 64px;
   border: 2px solid #0057FF;
-  margin-bottom: 16px;
   height: 0px;
 }
 section.bio .medium-width .bio-container .bio-text h4 {
