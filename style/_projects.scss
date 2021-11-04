@@ -2,6 +2,7 @@
 @import 'typography';
 @import 'navigation';
 
+
 $text-black: #222222;
 $grey-dark : #666666;
 $grey-light: #999999;
@@ -15,6 +16,11 @@ ul.no-list-style{
     list-style: none;
     padding-left: 0px;
 }
+
+.projects-page{
+    margin-top: 160px;
+}
+
 
 section.page-progress{
     .page-scroll {
