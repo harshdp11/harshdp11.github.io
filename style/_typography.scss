@@ -1,19 +1,18 @@
-$neue: neue-haas-grotesk-text, sans-serif;
-$kansas : kansasnew, serif;
-$poppins : 'Poppins', sans-serif;
+$ampersand : 'Playfair Display', serif;
+$san-serif : 'Manrope', sans-serif;
 
 $text-black: #222222;
 
 h1{
-    font-family: $poppins;
-    letter-spacing: -4px;
-    font-size: calc(32px + (80 - 32) * ((100vw - 320px) / (1680 - 320))); 
-    line-height: calc(48px + (108 - 48) * ((100vw - 320px) / (1680 - 320))); 
+    font-family: $san-serif;
+    letter-spacing: -3.5px;
+    font-size: calc(32px + (86 - 32) * ((100vw - 320px) / (1680 - 320))); 
+    line-height: calc(48px + (110 - 48) * ((100vw - 320px) / (1680 - 320))); 
     font-weight: 400;
 }
 
 h2{
-    font-family: $poppins;
+    font-family: $san-serif;
     letter-spacing: -2px;
     font-size: calc(32px + (64 - 32) * ((100vw - 320px) / (1680 - 320))); 
     font-weight: 400;
@@ -21,77 +20,78 @@ h2{
 }
 
 h3{
-    font-family: $poppins;
-    letter-spacing: -2px;
-    font-weight: 300;
+    font-family: $san-serif;
+    letter-spacing: -1px;
+    font-weight: 200;
     font-size: calc(32px + (48 - 32) * ((100vw - 320px) / (1680 - 320))); 
 }
 
 h4{
-    font-family: $neue;
+    font-family: $san-serif;
     letter-spacing: 0px;
     font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1680 - 320)));  
 }
 
 h4.serif{
-    font-family: $poppins !important;
     font-weight: 400;
     letter-spacing: -1px;
 }
 
 h5{
-    font-family: $neue;
+    font-family: $san-serif;
     letter-spacing: 0px;
     font-weight: 400;
-    font-size: calc(22px + (32 - 22) * ((100vw - 320px) / (1680 - 320)));  
+    letter-spacing: -0.48px;
+    font-size: calc(22px + (28 - 22) * ((100vw - 320px) / (1680 - 320)));  
 }
 
 h5.serif{
-    font-family: $poppins !important;
     font-weight: 400;
     letter-spacing: -1px;
 }
 
 h6{
-    font-family: $neue;
+    font-family: $san-serif;
     letter-spacing: 0px;
     font-size: 24px; 
     font-size: calc(20px + (24 - 20) * ((100vw - 320px) / (1680 - 320))); 
-    font-weight: 100;
+    font-weight: 300;
     margin: 0px;
     color: $text-black;
 }
 
 h6.serif{
-    font-family: $poppins !important;
+    font-family: $san-serif;
     font-size: calc(20px + (26 - 20) * ((100vw - 320px) / (1680 - 320))); 
     font-weight: 400;
-    letter-spacing: -0.5px;
+    letter-spacing: -0.16px;
 }
 
 h7{
-    font-family: $neue;
+    font-family: $san-serif;
     letter-spacing: 0px;
+    font-weight: 300;
     font-size: calc(18px + (20 - 18) * ((100vw - 320px) / (1680 - 320)));
 }
 
 h7.serif{
-    font-family: $poppins !important;
+    font-family: $san-serif;
     font-weight: 400;
     letter-spacing: -0.5px;
 }
 
 p.p1{
-    font-family: $neue;
+    font-family: $san-serif;
     letter-spacing: 0px;
     font-size: 18px;
+    font-weight: 400;
     line-height: 32px;
 }
 
 p.p2{
-    font-family: $neue;
+    font-family: $san-serif;
     letter-spacing: 0px;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 16px;
 }
 

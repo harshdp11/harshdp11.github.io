@@ -7,7 +7,8 @@ $grey-dark : #666666;
 $grey-light: #999999;
 
 $background-grey: #F5F5F7;
-$primary-pink: #FF103D;
+$primary-color: #0057FF;
+
 
 section.landing{
     width: 100%;
@@ -16,8 +17,9 @@ section.landing{
     background-color: white;
     z-index: 11;
     flex-direction: column;
-    border-bottom: 1px solid #eeeeee;
-
+    background-image: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1635947306/Portfolio%203.0/Home%20page/Portfolio_bg_5_-min_v9dfbb.png);
+    background-repeat: no-repeat;
+    background-size: contain;
 
     .cover-section{
         display: flex;
@@ -25,7 +27,7 @@ section.landing{
         margin-top: auto;
         margin-bottom: auto;
         overflow: visible;
-
+        
         .hero-text{
             align-items: center;
             margin-top: 20px;
@@ -72,7 +74,7 @@ section.landing{
                     }
 
                     .ampersand{
-                        font-family: $kansas;
+                        font-family: $ampersand;
                         font-weight: 400;
                     }
                 } 
@@ -139,14 +141,35 @@ section.landing{
             .intro-text{
                 grid-column: 2/3;
                 grid-row: 2;
-                margin-top: 40px;
+                margin-top: 32px;
                 animation: fadeIn 0.9s ease-in-out;
                 animation-delay: 0.4s;
 
+                .blue-line{
+                    width: 64px;
+                    border: 2px solid $primary-color;                  
+                }
+
                 p{
-                    color: $grey-dark;
+                    color: $text-black;
                     font-weight: 300;
-                    line-height: calc(28px + (32 - 28) * ((100vw - 320px) / (1680 - 320)));
+                    line-height: calc(32px + (32 - 28) * ((100vw - 320px) / (1680 - 320)));
+                    margin-bottom: 8px;
+                }
+
+                a{
+                    div{
+                        display: flex;
+                        flex-direction: row;
+
+                        p{
+                            color: $primary-color;
+                            font-family: $san-serif;
+                            margin-top: 0px;
+                            font-size: 18px;
+                            margin-bottom: 0px;
+                        }
+                    }
                 }
             }
         }
@@ -172,6 +195,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
         height: 100vh !important;
         
         .cover-section{
+            
             .hero-text{
     
                 h1{
@@ -211,20 +235,22 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 
 section.projects{
-    padding: 120px 0px;
+    padding: 0px 0px;
 
     .projects-heading{
-        h3{
-            font-weight: 300 !important;
+        h4{
+            font-weight: 400 !important;
             margin-top: 0px;
             margin-bottom: 0px;
-            color: $grey-light;
+            color: $grey-dark;
+            letter-spacing: -1px;
+            
             //margin-left: auto;
         }
     }
 
     .project-listing-row{
-        padding:64px 0px;
+        padding:48px 0px 80px 0px;
 
         .projects-row{  
             .project{
@@ -243,20 +269,20 @@ section.projects{
                     position: relative;
                     display: inline-block;
 
-                    h6{
-                        font-weight: 200;
-                        margin-top: 20px;
+                    h5{
+                        font-weight: 300;
+                        margin-top: 16px;
                         margin-bottom: 0px;
                     }
 
-                    h6:before{
+                    h5:before{
                         content: "";
                         position: absolute;
                         width: 0;
                         height: 2px;
                         bottom: -6px;
                         left: 0;
-                        background-color: $text-black;
+                        background-color: $primary-color;
                         visibility: hidden;
                         transition: all 0.4s ease-in-out;
                     }
@@ -271,7 +297,7 @@ section.projects{
                 }
 
                 .project-title{
-                    h6:before {
+                    h5:before {
                         visibility: visible;
                         width: 100%;
                     }
@@ -288,9 +314,7 @@ section.projects{
         }
     }
 
-    .row-3{
-        padding-bottom: 0px;
-    }
+   
 }
 
 .projects-page{
@@ -346,7 +370,9 @@ section.projects{
 
 section.get-in-touch{
     width: 100%;
-    padding: 160px 0px;
+    padding: 120px 0px;
+    margin-top: 48px;
+    //background: linear-gradient(267.89deg, #0E57E3 -0.25%, #2C056B 100%);
     background-color: black;
 
     .get-in-touch{
@@ -359,13 +385,24 @@ section.get-in-touch{
             flex-direction: column;
             position: relative;
 
-            h5{
-                font-weight: 100;
-                color: white;
+            h4{
+                font-weight: 300;
+                color: rgba(255,255,255,0.5);
                 margin:0px;
                 display: inline-block;
                 line-height: 48px;
                 position: relative;
+                text-align: center;
+                letter-spacing: 0px !important;
+
+                a{
+                    color: rgba(255,255,255,1);
+                }
+
+                a:hover{
+                    border-bottom: 1px solid white;
+                    transition: 2s;
+                }
             }
 
             .email-link{
@@ -374,27 +411,12 @@ section.get-in-touch{
                     display: inline-block;
 
                     a{
-                        h5{
+                        h4{
                             color: $grey-light;
                         }
                     }
 
-                    a:before{
-                        content: "";
-                        position: absolute;
-                        width: 0;
-                        height: 2px;
-                        bottom: 0px;
-                        left: 0;
-                        background-color: $grey-light;
-                        visibility: hidden;
-                        transition: all 0.4s ease-in-out;
-                    }
-        
-                    a:hover:before {
-                        visibility: visible;
-                        width: 100%;
-                    }
+                    
         
                 }
             }
