@@ -100,6 +100,7 @@ function myFunction() {
 }
 
 //Click to scroll to the top in project pages
+
 $(window).scroll(function() {
   if ($(this).scrollTop() > 100 ) {
       $('.scrolltop:hidden').stop(true, true).fadeIn();
@@ -107,13 +108,14 @@ $(window).scroll(function() {
       $('.scrolltop').stop(true, true).fadeOut();
   }
 });
-
+/*
 $(function(){
     $(".scrolltop").click(function(){
         $("html,body").animate({
           scrollTop:$(".navigation").offset().top},"1500");
           return false
 })});
+*/
 
 
 
