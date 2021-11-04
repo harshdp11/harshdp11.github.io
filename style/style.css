@@ -1511,7 +1511,7 @@ ul.no-list-style {
 }
 
 .projects-page {
-  padding-top: 160px;
+  padding-top: 160px !important;
 }
 
 section.page-progress .page-scroll {
@@ -2141,14 +2141,19 @@ section.bio .medium-width .bio-container .profile-image {
 section.bio .medium-width .bio-container .profile-image img {
   width: 100%;
 }
-section.bio .medium-width .bio-container .bio-text h1 {
-  margin: 0px;
-  margin-bottom: 16px;
+section.bio .medium-width .bio-container .bio-text .hello-flex {
+  display: flex;
+  align-items: center;
 }
-section.bio .medium-width .bio-container .bio-text .blue-line {
+section.bio .medium-width .bio-container .bio-text .hello-flex h3 {
+  margin: 0px;
+  padding-right: 12px;
+}
+section.bio .medium-width .bio-container .bio-text .hello-flex .blue-line {
   width: 64px;
   border: 2px solid #0057FF;
   margin-bottom: 16px;
+  height: 0px;
 }
 section.bio .medium-width .bio-container .bio-text h4 {
   font-weight: 500;
