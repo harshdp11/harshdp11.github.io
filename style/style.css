@@ -516,7 +516,7 @@ p.p2 {
     line-height: 28px;
   }
 }
-@media screen and (min-width: 1681px) {
+@media screen and (min-width: 1679px) {
   h1 {
     font-size: 80px;
     line-height: 108px;
@@ -548,6 +548,15 @@ p.p2 {
 
   h7 {
     font-size: 20px;
+  }
+
+  p.p1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  p.p2 {
+    font-size: 18px;
   }
 }
 navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expanded .menu-top {
@@ -1329,7 +1338,7 @@ p.p2 {
     line-height: 28px;
   }
 }
-@media screen and (min-width: 1681px) {
+@media screen and (min-width: 1679px) {
   h1 {
     font-size: 80px;
     line-height: 108px;
@@ -1361,6 +1370,15 @@ p.p2 {
 
   h7 {
     font-size: 20px;
+  }
+
+  p.p1 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  p.p2 {
+    font-size: 18px;
   }
 }
 navbar .navbar-desktop, navbar .navbar-mobile, navbar .navbar-mobile .menu-expanded .menu-top {
