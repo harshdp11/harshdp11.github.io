@@ -117,3 +117,24 @@ ul, ol{
 .inline-link:hover{
   opacity: 0.5;
 }
+
+
+.get-in-touch{
+  h4{
+    text-align: center;
+    font-weight: 400;
+    padding-top: 120px;
+  }
+
+  .blue-line{
+    width: 64px;
+    border: 2px solid $primary-color;     
+    margin: 0 auto;
+  }
+
+  .submit-button{
+    .question .question-body .i-button:not(.naked){
+      width: 100%;
+    }
+  }
+}

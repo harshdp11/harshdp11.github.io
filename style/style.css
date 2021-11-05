@@ -2320,4 +2320,18 @@ ul p, ol p {
   opacity: 0.5;
 }
 
+.get-in-touch h4 {
+  text-align: center;
+  font-weight: 400;
+  padding-top: 120px;
+}
+.get-in-touch .blue-line {
+  width: 64px;
+  border: 2px solid #0057FF;
+  margin: 0 auto;
+}
+.get-in-touch .submit-button .question .question-body .i-button:not(.naked) {
+  width: 100%;
+}
+
 /*# sourceMappingURL=style.css.map */
