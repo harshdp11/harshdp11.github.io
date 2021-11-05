@@ -504,12 +504,15 @@ p.p2 {
 }
 
 @media screen and (max-width: 1280px) {
+  h1 {
+    font-weight: 500;
+  }
+
   h3 {
     letter-spacing: -1px;
   }
 
   p.p1 {
-    font-size: 17px;
     line-height: 28px;
   }
 }
@@ -706,7 +709,7 @@ section.landing {
   display: flex;
   z-index: 11;
   flex-direction: column;
-  background: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636096103/Portfolio%203.0/Home%20page/Portfolio_bg_6_-min_mcwpa0.png);
+  background: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636107665/Portfolio%203.0/Home%20page/Portfolio_bg_8_-min_dbhid5.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -1314,12 +1317,15 @@ p.p2 {
 }
 
 @media screen and (max-width: 1280px) {
+  h1 {
+    font-weight: 500;
+  }
+
   h3 {
     letter-spacing: -1px;
   }
 
   p.p1 {
-    font-size: 17px;
     line-height: 28px;
   }
 }
@@ -2076,8 +2082,8 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
   section.contact-for-more {
     padding: 48px 0px !important;
   }
-  section.contact-for-more h6 {
-    line-height: 30px;
+  section.contact-for-more h4 {
+    line-height: 36px;
     max-width: 87%;
     margin: 0 auto;
   }
@@ -2320,17 +2326,22 @@ ul p, ol p {
   opacity: 0.5;
 }
 
+.get-in-touch {
+  padding: 120px 0px 96px 0px;
+}
 .get-in-touch h4 {
   text-align: center;
   font-weight: 400;
-  padding-top: 120px;
+  margin-bottom: 0px;
+  padding-bottom: 16px;
 }
 .get-in-touch .blue-line {
   width: 64px;
   border: 2px solid #0057FF;
   margin: 0 auto;
+  margin-bottom: 16px;
 }
-.get-in-touch .submit-button .question .question-body .i-button:not(.naked) {
+.get-in-touch iframe .submit-button .question .question-body .i-button:not(.naked) {
   width: 100%;
 }
 

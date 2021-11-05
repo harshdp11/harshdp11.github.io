@@ -120,21 +120,27 @@ ul, ol{
 
 
 .get-in-touch{
+  padding: 120px 0px 96px 0px;
   h4{
     text-align: center;
     font-weight: 400;
-    padding-top: 120px;
+    margin-bottom: 0px;
+    padding-bottom: 16px;
   }
 
   .blue-line{
     width: 64px;
     border: 2px solid $primary-color;     
     margin: 0 auto;
+    margin-bottom: 16px;
   }
 
-  .submit-button{
-    .question .question-body .i-button:not(.naked){
-      width: 100%;
+  iframe{
+    .submit-button{
+      .question .question-body .i-button:not(.naked){
+        width: 100%;
+      }
     }
   }
+  
 }
