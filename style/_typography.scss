@@ -6,7 +6,7 @@ $text-black: #222222;
 h1{
     font-family: $san-serif;
     letter-spacing: -3.5px;
-    font-size: calc(32px + (86 - 32) * ((100vw - 320px) / (1680 - 320))); 
+    font-size: calc(30px + (86 - 30) * ((100vw - 320px) / (1680 - 320))); 
     line-height: calc(48px + (110 - 48) * ((100vw - 320px) / (1680 - 320))); 
     font-weight: 400;
 }

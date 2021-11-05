@@ -12,8 +12,8 @@
   margin-left: 12%;
 }
 .container .narrow-width-home {
-  width: 90%;
-  margin-left: 5%;
+  width: 88%;
+  margin-left: 6%;
 }
 .container .two-column {
   display: grid;
@@ -196,7 +196,7 @@ navbar .navbar-desktop .navigation-links a.active {
 }
 navbar .navbar-mobile {
   display: none;
-  padding: 30px 0px;
+  padding: 24px 0px;
 }
 navbar .navbar-mobile .logo img {
   height: 26px;
@@ -222,7 +222,7 @@ navbar .navbar-mobile .menu-expanded {
 navbar .navbar-mobile .menu-expanded .menu-top {
   z-index: 5;
   position: absolute;
-  padding: 30px 0px;
+  padding: 24px 0px;
 }
 navbar .navbar-mobile .menu-expanded .menu-top .close-icon {
   margin-left: auto;
@@ -295,8 +295,8 @@ section.footer .container p:nth-child(2) {
   margin-left: 12%;
 }
 .container .narrow-width-home {
-  width: 90%;
-  margin-left: 5%;
+  width: 88%;
+  margin-left: 6%;
 }
 .container .two-column {
   display: grid;
@@ -414,7 +414,7 @@ section.footer .container p:nth-child(2) {
 h1 {
   font-family: "Manrope", sans-serif;
   letter-spacing: -3.5px;
-  font-size: calc(32px + 54 * (100vw - 320px) / 1360);
+  font-size: calc(30px + 56 * (100vw - 320px) / 1360);
   line-height: calc(48px + 62 * (100vw - 320px) / 1360);
   font-weight: 400;
 }
@@ -615,7 +615,7 @@ navbar .navbar-desktop .navigation-links a.active {
 }
 navbar .navbar-mobile {
   display: none;
-  padding: 30px 0px;
+  padding: 24px 0px;
 }
 navbar .navbar-mobile .logo img {
   height: 26px;
@@ -641,7 +641,7 @@ navbar .navbar-mobile .menu-expanded {
 navbar .navbar-mobile .menu-expanded .menu-top {
   z-index: 5;
   position: absolute;
-  padding: 30px 0px;
+  padding: 24px 0px;
 }
 navbar .navbar-mobile .menu-expanded .menu-top .close-icon {
   margin-left: auto;
@@ -855,7 +855,7 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 @media screen and (max-width: 1280px) {
   section.landing {
-    height: 70vh !important;
+    height: 90vh !important;
     background-image: none;
     background-color: #F5F5F7;
   }
@@ -1105,8 +1105,8 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   margin-left: 12%;
 }
 .container .narrow-width-home {
-  width: 90%;
-  margin-left: 5%;
+  width: 88%;
+  margin-left: 6%;
 }
 .container .two-column {
   display: grid;
@@ -1224,7 +1224,7 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
 h1 {
   font-family: "Manrope", sans-serif;
   letter-spacing: -3.5px;
-  font-size: calc(32px + 54 * (100vw - 320px) / 1360);
+  font-size: calc(30px + 56 * (100vw - 320px) / 1360);
   line-height: calc(48px + 62 * (100vw - 320px) / 1360);
   font-weight: 400;
 }
@@ -1425,7 +1425,7 @@ navbar .navbar-desktop .navigation-links a.active {
 }
 navbar .navbar-mobile {
   display: none;
-  padding: 30px 0px;
+  padding: 24px 0px;
 }
 navbar .navbar-mobile .logo img {
   height: 26px;
@@ -1451,7 +1451,7 @@ navbar .navbar-mobile .menu-expanded {
 navbar .navbar-mobile .menu-expanded .menu-top {
   z-index: 5;
   position: absolute;
-  padding: 30px 0px;
+  padding: 24px 0px;
 }
 navbar .navbar-mobile .menu-expanded .menu-top .close-icon {
   margin-left: auto;
