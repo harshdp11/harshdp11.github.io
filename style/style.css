@@ -707,7 +707,7 @@ section.landing {
   background-color: white;
   z-index: 11;
   flex-direction: column;
-  background-image: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1635947306/Portfolio%203.0/Home%20page/Portfolio_bg_5_-min_v9dfbb.png);
+  background: url(../bg.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
