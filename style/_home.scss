@@ -13,10 +13,9 @@ section.landing{
     width: 100%;
     height: 100vh;
     display: flex;
-    background-color: white;
     z-index: 11;
     flex-direction: column;
-    background: url(../bg.svg);
+    background: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636096103/Portfolio%203.0/Home%20page/Portfolio_bg_6_-min_mcwpa0.png);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -191,13 +190,16 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 @media screen and (max-width: 1280px) {
     section.landing{
-        height: 100vh !important;
+        height: 70vh !important;
+        background-image: none;
+        background-color: #F5F5F7;
         
         .cover-section{
             
             .hero-text{
     
                 h1{
+                    letter-spacing: -0.64px;
                     grid-column: 1/3;
                 }
     
@@ -210,6 +212,10 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
                 grid-column: 1/3 !important;
                 margin-top:0px !important;
                 max-width: 80%;
+
+                .blue-line{
+                    display: none;
+                }
 
                 p{
                     margin-top: 20px;

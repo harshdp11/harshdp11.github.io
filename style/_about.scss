@@ -66,14 +66,15 @@ section.bio{
 
 @media screen and (max-width: 1280px) {
     section.bio{
-        padding: 96px 0px;
+        padding: 160px 0px 120px 0px;
     
         .medium-width{
             .bio-container{
                 width: 100%;
                 .profile-image{
-                    width: 100%;
-                    margin-right: 0%;
+                    width: 100% !important;
+                    margin-right: 0% !important;
+                    margin-left: 0%;
                     img{
                         width: 100%;
                     }
@@ -94,7 +95,8 @@ section.bio{
 
 @media screen and (max-width: 600px) {
     section.bio{
-        padding: 64px 0px;
+        
+        padding: 120px 0px 64px 0px;
     
         .medium-width{
             .bio-container{
@@ -108,6 +110,10 @@ section.bio{
                 }
 
                 .bio-text{
+                    margin-top: 32px;
+                    .hello-flex{
+                        display: none;
+                    }
                     h5{
                         margin-top: 32px;
                         line-height: 32px;

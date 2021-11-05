@@ -93,8 +93,8 @@
 }
 @media screen and (max-width: 600px) {
   .container {
-    width: 87%;
-    margin-left: 7%;
+    width: 90%;
+    margin-left: 5%;
   }
   .container .two-column {
     display: grid;
@@ -376,8 +376,8 @@ section.footer .container p:nth-child(2) {
 }
 @media screen and (max-width: 600px) {
   .container {
-    width: 87%;
-    margin-left: 7%;
+    width: 90%;
+    margin-left: 5%;
   }
   .container .two-column {
     display: grid;
@@ -704,10 +704,9 @@ section.landing {
   width: 100%;
   height: 100vh;
   display: flex;
-  background-color: white;
   z-index: 11;
   flex-direction: column;
-  background: url(../bg.svg);
+  background: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636096103/Portfolio%203.0/Home%20page/Portfolio_bg_6_-min_mcwpa0.png);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -856,9 +855,12 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
 }
 @media screen and (max-width: 1280px) {
   section.landing {
-    height: 100vh !important;
+    height: 70vh !important;
+    background-image: none;
+    background-color: #F5F5F7;
   }
   section.landing .cover-section .hero-text h1 {
+    letter-spacing: -0.64px;
     grid-column: 1/3;
   }
   section.landing .cover-section .hero-text .circles {
@@ -868,6 +870,9 @@ _::-webkit-full-page-media, _:future, :root .safari_only {
     grid-column: 1/3 !important;
     margin-top: 0px !important;
     max-width: 80%;
+  }
+  section.landing .cover-section .intro-text .blue-line {
+    display: none;
   }
   section.landing .cover-section .intro-text p {
     margin-top: 20px;
@@ -1181,8 +1186,8 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
 }
 @media screen and (max-width: 600px) {
   .container {
-    width: 87%;
-    margin-left: 7%;
+    width: 90%;
+    margin-left: 5%;
   }
   .container .two-column {
     display: grid;
@@ -2169,14 +2174,15 @@ section.bio .medium-width .bio-container .bio-text p.p1 {
 
 @media screen and (max-width: 1280px) {
   section.bio {
-    padding: 96px 0px;
+    padding: 160px 0px 120px 0px;
   }
   section.bio .medium-width .bio-container {
     width: 100%;
   }
   section.bio .medium-width .bio-container .profile-image {
-    width: 100%;
-    margin-right: 0%;
+    width: 100% !important;
+    margin-right: 0% !important;
+    margin-left: 0%;
   }
   section.bio .medium-width .bio-container .profile-image img {
     width: 100%;
@@ -2190,7 +2196,7 @@ section.bio .medium-width .bio-container .bio-text p.p1 {
 }
 @media screen and (max-width: 600px) {
   section.bio {
-    padding: 64px 0px;
+    padding: 120px 0px 64px 0px;
   }
   section.bio .medium-width .bio-container {
     width: 100%;
@@ -2201,6 +2207,12 @@ section.bio .medium-width .bio-container .bio-text p.p1 {
   }
   section.bio .medium-width .bio-container .profile-image img {
     width: 100%;
+  }
+  section.bio .medium-width .bio-container .bio-text {
+    margin-top: 32px;
+  }
+  section.bio .medium-width .bio-container .bio-text .hello-flex {
+    display: none;
   }
   section.bio .medium-width .bio-container .bio-text h5 {
     margin-top: 32px;
