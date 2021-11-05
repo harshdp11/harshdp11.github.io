@@ -6,5 +6,5 @@ AddType image/svg+xml .svg .svgz
 
 
 RewriteCond %{SERVER_PORT} 80
-RewriteCond %{HTTP_HOST} ^(www\.)?coolexample\.com
-RewriteRule ^(.*)$ https://www.coolexample.com/$1 [R,L]
+RewriteCond %{HTTP_HOST} ^(www\.)?harshdeep\.me
+RewriteRule ^(.*)$ https://www.harshdeep.me/$1 [R,L]
