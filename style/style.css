@@ -180,7 +180,7 @@ navbar .navbar-desktop .navigation-links a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0057FF;
+  background-color: #FF103D;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -192,7 +192,7 @@ navbar .navbar-desktop .navigation-links .external-link:hover:after {
   opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
-  border-bottom: 2x solid #0057FF;
+  border-bottom: 2x solid #FF103D;
 }
 navbar .navbar-mobile {
   display: none;
@@ -518,8 +518,8 @@ p.p2 {
 }
 @media screen and (min-width: 1679px) {
   h1 {
-    font-size: 80px;
-    line-height: 108px;
+    font-size: 96px;
+    line-height: 124px;
   }
 
   h2 {
@@ -611,7 +611,7 @@ navbar .navbar-desktop .navigation-links a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0057FF;
+  background-color: #FF103D;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -623,7 +623,7 @@ navbar .navbar-desktop .navigation-links .external-link:hover:after {
   opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
-  border-bottom: 2x solid #0057FF;
+  border-bottom: 2x solid #FF103D;
 }
 navbar .navbar-mobile {
   display: none;
@@ -718,7 +718,7 @@ section.landing {
   display: flex;
   z-index: 11;
   flex-direction: column;
-  background: url(../bg.svg);
+  background: url(../bg_red.svg);
   background-repeat: no-repeat;
   background-size: contain;
 }
@@ -835,7 +835,7 @@ section.landing .cover-section .hero-text .intro-text {
 }
 section.landing .cover-section .hero-text .intro-text .blue-line {
   width: 64px;
-  border: 2px solid #0057FF;
+  border: 2px solid #FF103D;
 }
 section.landing .cover-section .hero-text .intro-text p {
   color: #222222;
@@ -848,7 +848,7 @@ section.landing .cover-section .hero-text .intro-text a div {
   flex-direction: row;
 }
 section.landing .cover-section .hero-text .intro-text a div p {
-  color: #0057FF;
+  color: #FF103D;
   font-family: "Manrope", sans-serif;
   margin-top: 0px;
   font-size: 18px;
@@ -938,7 +938,7 @@ section.projects .project-listing-row .projects-row .project .project-title h5:b
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #0057FF;
+  background-color: #FF103D;
   visibility: hidden;
   transition: all 0.4s ease-in-out;
 }
@@ -1340,8 +1340,8 @@ p.p2 {
 }
 @media screen and (min-width: 1679px) {
   h1 {
-    font-size: 80px;
-    line-height: 108px;
+    font-size: 96px;
+    line-height: 124px;
   }
 
   h2 {
@@ -1433,7 +1433,7 @@ navbar .navbar-desktop .navigation-links a:before {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #0057FF;
+  background-color: #FF103D;
   visibility: hidden;
   transition: all 0.3s ease-in-out;
 }
@@ -1445,7 +1445,7 @@ navbar .navbar-desktop .navigation-links .external-link:hover:after {
   opacity: 1;
 }
 navbar .navbar-desktop .navigation-links a.active {
-  border-bottom: 2x solid #0057FF;
+  border-bottom: 2x solid #FF103D;
 }
 navbar .navbar-mobile {
   display: none;
@@ -1557,7 +1557,7 @@ section.page-progress .progress-container {
 }
 section.page-progress .progress-bar {
   height: 3px;
-  background: #0057FF;
+  background: #FF103D;
   width: 0%;
 }
 
@@ -1603,6 +1603,9 @@ section.project-intro .project-cover-image .cover-image-container img {
   width: 100%;
   background-position: 0%;
   height: auto;
+}
+section.project-intro .project-cover-image .nference {
+  background-image: url(https://res.cloudinary.com/drm7gxqhv/image/upload/c_scale,q_50,w_5/v1636263265/Portfolio%203.0/Projects/Nference%20Design/nference_cover_2_ltempk.svg);
 }
 section.project-intro .project-cover-image .learn-app {
   background-image: url(https://res.cloudinary.com/drm7gxqhv/image/upload/c_scale,q_50,w_5/v1611044253/Portfolio%203.0/Projects/Learn%202020/Learn_Cover_Image-min_cjbtx0.png);
@@ -1919,7 +1922,7 @@ section.more-projects .medium-width .explore-projects .suggested-project .projec
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #0057FF;
+  background-color: #FF103D;
   visibility: hidden;
   transition: all 0.4s ease-in-out;
 }
@@ -2144,6 +2147,10 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
     display: none !important;
   }
 }
+.slider .p2 {
+  text-align: center;
+}
+
 section.bio {
   padding: 160px 0px 60px 0px;
 }
@@ -2180,7 +2187,7 @@ section.bio .medium-width .bio-container .bio-text .hello-flex h3 {
 }
 section.bio .medium-width .bio-container .bio-text .hello-flex .blue-line {
   width: 64px;
-  border: 2px solid #0057FF;
+  border: 2px solid #FF103D;
   height: 0px;
 }
 section.bio .medium-width .bio-container .bio-text h4 {
@@ -2244,7 +2251,7 @@ section.bio .medium-width .bio-container .bio-text p.p1 {
   }
 }
 ::selection {
-  background: #0057FF;
+  background: #FF103D;
   color: white;
 }
 
@@ -2355,12 +2362,58 @@ ul p, ol p {
 }
 .get-in-touch .blue-line {
   width: 64px;
-  border: 2px solid #0057FF;
+  border: 2px solid #FF103D;
   margin: 0 auto;
   margin-bottom: 16px;
 }
 .get-in-touch iframe .submit-button .question .question-body .i-button:not(.naked) {
   width: 100%;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 1rem 0;
+  list-style-type: none;
+}
+.slick-dots li {
+  margin: 0 0.25rem;
+}
+.slick-dots li button {
+  display: block;
+  width: 0.6rem !important;
+  height: 0.6rem !important;
+  border: none;
+  border-radius: 100%;
+  background-color: #7c7c7c !important;
+  opacity: 0.25 !important;
+  text-indent: -9999px;
+}
+.slick-dots li.slick-active button {
+  opacity: 1 !important;
+}
+
+.slick-prev {
+  left: -75px !important;
+  display: block !important;
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.slick-next {
+  display: block !important;
+  width: 56px !important;
+  height: 56px !important;
+  right: -75px !important;
+}
+
+.slick-prev:before {
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636215932/Portfolio%203.0/Projects/Prev_gfotjh.svg) !important;
+}
+
+.slick-next:before {
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636215985/Portfolio%203.0/Projects/Next_1_ysmcjb.svg) !important;
 }
 
 /*# sourceMappingURL=style.css.map */

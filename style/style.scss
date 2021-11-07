@@ -9,7 +9,7 @@ $grey-dark : #666666;
 $grey-light: #999999;
 
 $background-grey: #F5F5F7;
-$primary-color: #0057FF;
+$primary-color: #FF103D;
 
 
 ::selection {
@@ -143,4 +143,57 @@ ul, ol{
     }
   }
   
+}
+
+.slick-dots {
+	display: flex;
+	justify-content: center;
+	
+	margin: 0;
+	padding: 1rem 0;
+	
+	list-style-type: none;
+	
+		li {
+			margin: 0 0.25rem;
+
+      button {
+        display: block;
+        width: 0.6rem !important;
+        height: 0.6rem !important;
+        border: none;
+        border-radius: 100%;
+        background-color: #7c7c7c !important;
+        opacity: 0.25 !important;
+        text-indent: -9999px;
+      }
+		}
+	
+		
+	
+		li.slick-active button {
+			opacity: 1 !important;
+		}
+	
+}
+
+.slick-prev{
+  left: -75px !important;
+  display: block !important;
+  width: 56px !important;
+  height: 56px !important;
+}
+
+.slick-next{
+  display: block !important;
+  width: 56px !important;
+  height: 56px !important;
+  right: -75px !important;
+}
+.slick-prev:before {
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636215932/Portfolio%203.0/Projects/Prev_gfotjh.svg) !important;
+}
+
+.slick-next:before {
+  content: url(https://res.cloudinary.com/drm7gxqhv/image/upload/v1636215985/Portfolio%203.0/Projects/Next_1_ysmcjb.svg) !important;
 }

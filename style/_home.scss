@@ -7,7 +7,7 @@ $grey-dark : #666666;
 $grey-light: #999999;
 
 $background-grey: #F5F5F7;
-$primary-color: #0057FF;
+$primary-color: #FF103D;
 
 section.landing{
     width: 100%;
@@ -15,7 +15,7 @@ section.landing{
     display: flex;
     z-index: 11;
     flex-direction: column;
-    background: url(../bg.svg);
+    background: url(../bg_red.svg);
     background-repeat: no-repeat;
     background-size: contain;
 
@@ -167,6 +167,7 @@ section.landing{
                             font-size: 18px;
                             margin-bottom: 0px;
                         }
+                        
                     }
                 }
             }

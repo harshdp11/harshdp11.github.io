@@ -96,6 +96,9 @@ section.project-intro{
                 height: auto;
             }
         }
+        .nference{
+            background-image: url(https://res.cloudinary.com/drm7gxqhv/image/upload/c_scale,q_50,w_5/v1636263265/Portfolio%203.0/Projects/Nference%20Design/nference_cover_2_ltempk.svg);
+        }
 
         .learn-app{
             background-image: url(https://res.cloudinary.com/drm7gxqhv/image/upload/c_scale,q_50,w_5/v1611044253/Portfolio%203.0/Projects/Learn%202020/Learn_Cover_Image-min_cjbtx0.png);
@@ -804,5 +807,11 @@ section.more-projects{
 @media screen and (max-width: 600px) {
     .scrolltop {
         display: none !important;
+    }
+}
+
+.slider{
+    .p2{
+        text-align: center;
     }
 }
