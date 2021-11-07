@@ -8,8 +8,8 @@
   width: 90%;
 }
 .container .narrow-width {
-  width: 76%;
-  margin-left: 12%;
+  width: 82%;
+  margin-left: 9%;
 }
 .container .narrow-width-home {
   width: 88%;
@@ -291,8 +291,8 @@ section.footer .container p:nth-child(2) {
   width: 90%;
 }
 .container .narrow-width {
-  width: 76%;
-  margin-left: 12%;
+  width: 82%;
+  margin-left: 9%;
 }
 .container .narrow-width-home {
   width: 88%;
@@ -845,7 +845,7 @@ section.landing .cover-section .hero-text .intro-text p {
   letter-spacing: 0px;
 }
 section.landing .cover-section .hero-text .intro-text a div {
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
 }
 section.landing .cover-section .hero-text .intro-text a div p {
@@ -1119,8 +1119,8 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
   width: 90%;
 }
 .container .narrow-width {
-  width: 76%;
-  margin-left: 12%;
+  width: 82%;
+  margin-left: 9%;
 }
 .container .narrow-width-home {
   width: 88%;
