@@ -160,11 +160,12 @@ section.project-description{
         }
 
         p.p1{
-            font-weight: 300;
-            letter-spacing: 0.16px;
+            font-weight: 400;
+            letter-spacing: 0.24px;
             max-width: 90%;
             margin-top: 16px;
             margin-bottom: 24px;
+            color: $grey-dark;
         }
 
         .subhead-description{
@@ -811,7 +812,14 @@ section.more-projects{
 }
 
 .slider{
+    img{
+        margin-bottom: 0px !important;
+    }
     .p2{
         text-align: center;
+        margin-top: 0px;
+        margin-bottom: 32px;
+        margin-top: 16px;
+        color: $grey-dark;
     }
 }

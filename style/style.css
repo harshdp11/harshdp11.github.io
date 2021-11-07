@@ -490,7 +490,7 @@ h7.serif {
 
 p.p1 {
   font-family: "Manrope", sans-serif;
-  letter-spacing: 0px;
+  letter-spacing: 0.48px;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -498,7 +498,7 @@ p.p1 {
 
 p.p2 {
   font-family: "Manrope", sans-serif;
-  letter-spacing: 0px;
+  letter-spacing: 0.32px;
   font-weight: 400;
   font-size: 16px;
 }
@@ -839,9 +839,10 @@ section.landing .cover-section .hero-text .intro-text .blue-line {
 }
 section.landing .cover-section .hero-text .intro-text p {
   color: #222222;
-  font-weight: 300;
+  font-weight: 400;
   line-height: calc(32px + 4 * (100vw - 320px) / 1360);
   margin-bottom: 8px;
+  letter-spacing: 0px;
 }
 section.landing .cover-section .hero-text .intro-text a div {
   display: flex;
@@ -1103,6 +1104,11 @@ section.get-in-touch .get-in-touch .social-links .social-media div a:hover:befor
     margin-top: 4px;
   }
 }
+@media screen and (min-width: 1679px) {
+  a div p {
+    font-size: 20px !important;
+  }
+}
 .container {
   width: 80%;
   margin-left: auto;
@@ -1312,7 +1318,7 @@ h7.serif {
 
 p.p1 {
   font-family: "Manrope", sans-serif;
-  letter-spacing: 0px;
+  letter-spacing: 0.48px;
   font-size: 18px;
   font-weight: 400;
   line-height: 32px;
@@ -1320,7 +1326,7 @@ p.p1 {
 
 p.p2 {
   font-family: "Manrope", sans-serif;
-  letter-spacing: 0px;
+  letter-spacing: 0.32px;
   font-weight: 400;
   font-size: 16px;
 }
@@ -1649,11 +1655,12 @@ section.project-description .description-text h7 {
   margin-top: 8px;
 }
 section.project-description .description-text p.p1 {
-  font-weight: 300;
-  letter-spacing: 0.16px;
+  font-weight: 400;
+  letter-spacing: 0.24px;
   max-width: 90%;
   margin-top: 16px;
   margin-bottom: 24px;
+  color: #666666;
 }
 section.project-description .description-text .subhead-description {
   margin-top: 8px !important;
@@ -2147,8 +2154,15 @@ section.more-projects .medium-width .explore-projects .suggested-project:hover .
     display: none !important;
   }
 }
+.slider img {
+  margin-bottom: 0px !important;
+}
 .slider .p2 {
   text-align: center;
+  margin-top: 0px;
+  margin-bottom: 32px;
+  margin-top: 16px;
+  color: #666666;
 }
 
 section.bio {

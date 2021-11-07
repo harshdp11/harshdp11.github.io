@@ -150,9 +150,10 @@ section.landing{
 
                 p{
                     color: $text-black;
-                    font-weight: 300;
+                    font-weight: 400;
                     line-height: calc(32px + (32 - 28) * ((100vw - 320px) / (1680 - 320)));
                     margin-bottom: 8px;
+                    letter-spacing: 0px;
                 }
 
                 a{
@@ -519,6 +520,17 @@ section.get-in-touch{
                     margin-top: 4px;
                 }
             }
+        }
+    }
+}
+
+@media screen and (min-width: 1679px) {
+    a{
+        div{
+            p{
+                font-size: 20px !important;
+            }
+            
         }
     }
 }
