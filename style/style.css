@@ -842,7 +842,7 @@ section.landing .cover-section .hero-text .intro-text p {
   font-weight: 400;
   line-height: calc(32px + 4 * (100vw - 320px) / 1360);
   margin-bottom: 8px;
-  letter-spacing: 0px;
+  letter-spacing: 0.24px;
 }
 section.landing .cover-section .hero-text .intro-text a div {
   display: inline-flex;
