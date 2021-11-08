@@ -931,6 +931,7 @@ section.projects .project-listing-row .projects-row .project .project-title h5 {
   font-weight: 300;
   margin-top: 16px;
   margin-bottom: 0px;
+  letter-spacing: 0px;
 }
 section.projects .project-listing-row .projects-row .project .project-title h5:before {
   content: "";
@@ -1591,7 +1592,7 @@ section.project-intro .project-title .project-data-points .data-point p {
 }
 section.project-intro .project-title .project-data-points .data-point h7 {
   margin-top: 8px;
-  font-weight: 300;
+  font-weight: 400;
 }
 section.project-intro .project-cover-image {
   margin-top: 80px;
